@@ -1,4 +1,4 @@
-# Dashboard 2 - Radar Mercados de Aplicacao & Brand Owners Avient
+# Radar de Mercados
 
 Projeto vivo para monitorar mercados de aplicacao que possam gerar oportunidades comerciais, tecnicas ou estrategicas para Avient no Brasil e na America do Sul.
 
