@@ -1,0 +1,472 @@
+{
+  "_formatNote": "JSON valido tambem e YAML valido; mantem leitura deterministica sem dependencia externa.",
+  "dashboardId": "dashboard2",
+  "dashboardName": "Dashboard 2 - Radar Mercados de Aplicacao & Brand Owners Avient",
+  "repository": "DRO26",
+  "timezone": "America/Sao_Paulo",
+  "analysisWindowDays": 30,
+  "visualOrder": ["packaging", "beverages", "appliances", "consumer_goods"],
+  "segments": [
+    {
+      "id": "packaging",
+      "label": "Embalagens Plasticas",
+      "displayLabel": "Embalagens Plásticas",
+      "priority": "maxima",
+      "cadence": "weekly",
+      "sources": [
+        {
+          "id": "abre",
+          "name": "ABRE / Revista ABRE",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://www.abre.org.br/",
+          "editionRequired": true,
+          "originTypes": ["noticia do site", "edicao da revista", "PDF", "relatorio"],
+          "focus": ["inovacao em embalagem", "sustentabilidade", "design", "materiais", "cases de marcas"]
+        },
+        {
+          "id": "embalagemmarca",
+          "name": "EmbalagemMarca",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://embalagemmarca.com.br/",
+          "editionRequired": true,
+          "originTypes": ["noticia do site", "edicao da revista", "ranking"],
+          "focus": ["lancamentos de embalagens", "brandowners", "design", "sustentabilidade", "novos formatos"]
+        },
+        {
+          "id": "embanews",
+          "name": "Embanews",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://embanews.com.br/",
+          "editionRequired": true,
+          "originTypes": ["noticia do site", "edicao digital", "PDF", "flipbook"],
+          "focus": ["fornecedores de embalagem", "materiais", "maquinas", "cases", "inovacao"]
+        },
+        {
+          "id": "revista-pack",
+          "name": "Revista Pack",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://www.pack.com.br/",
+          "editionUrl": "https://www.pack.com.br/revistadigital",
+          "editionRequired": true,
+          "originTypes": ["noticia do site", "edicao digital", "PDF", "flipbook"],
+          "focus": ["embalagem tecnica", "design", "materiais", "tecnologia", "conversao"]
+        },
+        {
+          "id": "premio-abre",
+          "name": "Premio ABRE da Embalagem Brasileira",
+          "layer": 3,
+          "cadence": "monthly_or_event",
+          "homepage": "https://www.premioabre.org.br/",
+          "eventSensitive": true,
+          "editionRequired": false,
+          "focus": ["cases de inovacao", "design", "sustentabilidade", "embalagens premiadas"]
+        },
+        {
+          "id": "instituto-embalagens",
+          "name": "Instituto de Embalagens",
+          "layer": 3,
+          "cadence": "monthly",
+          "homepage": "https://institutodeembalagens.com.br/",
+          "editionRequired": true,
+          "focus": ["conteudo tecnico", "cursos", "tendencias", "materiais", "publicacoes"]
+        },
+        {
+          "id": "cetea-ital",
+          "name": "CETEA / ITAL",
+          "layer": 3,
+          "cadence": "monthly",
+          "homepage": "https://www.ital.sp.gov.br/cetea/",
+          "editionRequired": true,
+          "originTypes": ["relatorio", "PDF", "publicacao institucional"],
+          "focus": ["shelf life", "seguranca", "ensaios", "legislacao", "validacao tecnica"]
+        },
+        {
+          "id": "fispal-tecnologia",
+          "name": "Fispal Tecnologia",
+          "layer": 3,
+          "cadence": "monthly_or_event",
+          "homepage": "https://www.fispaltecnologia.com.br/",
+          "eventSensitive": true,
+          "focus": ["tecnologia para alimentos e bebidas", "embalagem", "processos", "automacao"]
+        }
+      ]
+    },
+    {
+      "id": "beverages",
+      "label": "Bebidas",
+      "displayLabel": "Bebidas",
+      "priority": "alta",
+      "cadence": "weekly",
+      "sources": [
+        {
+          "id": "abir",
+          "name": "ABIR",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://abir.org.br/",
+          "editionRequired": true,
+          "focus": ["bebidas nao alcoolicas", "dados setoriais", "regulacao", "sustentabilidade", "embalagens"]
+        },
+        {
+          "id": "abinam",
+          "name": "ABINAM",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://www.abinam.com.br/",
+          "editionRequired": true,
+          "focus": ["agua mineral", "garrafas PET", "garrafoes", "tampas", "regulacao"]
+        },
+        {
+          "id": "engarrafador-moderno",
+          "name": "Engarrafador Moderno",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://engarrafadormoderno.com.br/",
+          "editionRequired": true,
+          "originTypes": ["edicao da revista", "PDF", "flipbook"],
+          "focus": ["cadeia de bebidas", "processos", "embalagem", "PET", "tampas"]
+        },
+        {
+          "id": "coca-cola-brasil",
+          "name": "Coca-Cola Brasil",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://www.coca-cola.com/br/pt",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["marcas", "lancamentos", "embalagens", "PET", "rPET", "retornaveis"]
+        },
+        {
+          "id": "coca-cola-femsa",
+          "name": "Coca-Cola FEMSA",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://coca-colafemsa.com/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["engarrafamento", "sustentabilidade", "expansao industrial", "embalagens"]
+        },
+        {
+          "id": "ambev",
+          "name": "Ambev",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://www.ambev.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["bebidas", "garrafas", "embalagens retornaveis", "PET", "sustentabilidade"]
+        },
+        {
+          "id": "citrusbr",
+          "name": "CitrusBR",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://citrusbr.com/",
+          "focus": ["sucos", "dados setoriais", "exportacao", "embalagens"]
+        },
+        {
+          "id": "abia",
+          "name": "ABIA",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.abia.org.br/",
+          "editionRequired": true,
+          "focus": ["alimentos", "bebidas", "dados setoriais", "embalagens"]
+        },
+        {
+          "id": "heineken-brasil",
+          "name": "Heineken Brasil",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.heinekenbrasil.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["bebidas", "embalagens", "sustentabilidade", "retornaveis"]
+        },
+        {
+          "id": "grupo-petropolis",
+          "name": "Grupo Petropolis",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.grupopetropolis.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["bebidas", "garrafas", "embalagens", "expansao"]
+        },
+        {
+          "id": "natural-one",
+          "name": "Natural One",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://naturalone.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["sucos", "bebidas naturais", "embalagens", "PET"]
+        },
+        {
+          "id": "leao-matte-leao",
+          "name": "Leao / Matte Leao / Coca-Cola",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.leao.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["chas prontos", "bebidas", "garrafas", "rotulos"]
+        },
+        {
+          "id": "zanlorenzi-campo-largo-ohtea",
+          "name": "Zanlorenzi / Campo Largo / Oh!Tea",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.campolargo.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["sucos", "chas", "bebidas prontas", "embalagens"]
+        },
+        {
+          "id": "fispal-tecnologia-bebidas",
+          "name": "Fispal Tecnologia",
+          "layer": 2,
+          "cadence": "biweekly_or_event",
+          "homepage": "https://www.fispaltecnologia.com.br/",
+          "eventSensitive": true,
+          "focus": ["bebidas", "embalagem", "processos", "automacao"]
+        }
+      ]
+    },
+    {
+      "id": "appliances",
+      "label": "Eletrodomesticos",
+      "displayLabel": "Eletrodomésticos",
+      "priority": "media",
+      "cadence": "selective",
+      "sources": [
+        {
+          "id": "eletros",
+          "name": "Eletros",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://eletros.org.br/",
+          "editionRequired": true,
+          "focus": ["linha branca", "regulacao", "dados setoriais", "industria"]
+        },
+        {
+          "id": "eletrolar-news",
+          "name": "Eletrolar News / Portal Eletrolar",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.eletrolarnews.com.br/",
+          "editionRequired": true,
+          "focus": ["eletrodomesticos", "varejo especializado", "lancamentos", "design"]
+        },
+        {
+          "id": "mondial",
+          "name": "Mondial",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.mondial.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["eletroportateis", "novas linhas", "cores", "acabamentos"]
+        },
+        {
+          "id": "electrolux",
+          "name": "Electrolux",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.electrolux.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["linha branca", "design", "materiais", "acabamentos", "sustentabilidade"]
+        },
+        {
+          "id": "whirlpool-brastemp-consul",
+          "name": "Whirlpool / Brastemp / Consul",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.whirlpool.com/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["linha branca", "design", "pecas plasticas", "acabamentos"]
+        },
+        {
+          "id": "britania-philco",
+          "name": "Britania / Philco",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.britania.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["eletroportateis", "novas linhas", "cores", "pecas plasticas"]
+        },
+        {
+          "id": "arno-groupe-seb",
+          "name": "Arno / Groupe SEB",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.arno.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["eletroportateis", "design", "cores", "acabamentos"]
+        },
+        {
+          "id": "eletrolar-show",
+          "name": "Eletrolar Show",
+          "layer": 3,
+          "cadence": "monthly_or_event",
+          "homepage": "https://eletrolarshow.com.br/",
+          "eventSensitive": true,
+          "focus": ["feira", "lancamentos", "marcas", "tendencias"]
+        },
+        {
+          "id": "mercado-consumo-appliances",
+          "name": "Mercado & Consumo",
+          "layer": 3,
+          "cadence": "monthly",
+          "homepage": "https://mercadoeconsumo.com.br/",
+          "focus": ["varejo", "consumo", "lancamentos", "categoria"]
+        },
+        {
+          "id": "mundo-marketing-appliances",
+          "name": "Mundo do Marketing",
+          "layer": 3,
+          "cadence": "monthly",
+          "homepage": "https://www.mundodomarketing.com.br/",
+          "focus": ["marketing", "produto", "categoria", "marca"]
+        },
+        {
+          "id": "meio-mensagem-appliances",
+          "name": "Meio & Mensagem",
+          "layer": 3,
+          "cadence": "monthly",
+          "homepage": "https://www.meioemensagem.com.br/",
+          "focus": ["marca", "produto", "campanha com mudanca real", "categoria"]
+        }
+      ]
+    },
+    {
+      "id": "consumer_goods",
+      "label": "Bens de Consumo",
+      "displayLabel": "Bens de Consumo",
+      "priority": "alta_estrategica",
+      "cadence": "weekly",
+      "sources": [
+        {
+          "id": "abihpec",
+          "name": "ABIHPEC",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://abihpec.org.br/",
+          "editionRequired": true,
+          "focus": ["higiene pessoal", "perfumaria", "cosmeticos", "sustentabilidade", "embalagens"]
+        },
+        {
+          "id": "abipla",
+          "name": "ABIPLA",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://abipla.org.br/",
+          "editionRequired": true,
+          "focus": ["limpeza", "saneantes", "embalagens", "refis", "sustentabilidade"]
+        },
+        {
+          "id": "unilever",
+          "name": "Unilever Brasil / Unilever Global",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://www.unilever.com.br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["higiene", "limpeza", "beleza", "embalagens", "PCR", "refis"]
+        },
+        {
+          "id": "loreal",
+          "name": "L'Oreal Brasil / L'Oreal Groupe",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://www.loreal.com/en/brazil/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["beleza", "cosmeticos", "embalagens", "refis", "sustentabilidade"]
+        },
+        {
+          "id": "pg",
+          "name": "P&G Brasil / P&G Global",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://br.pg.com/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["cuidados pessoais", "limpeza", "embalagens", "sustentabilidade"]
+        },
+        {
+          "id": "reckitt",
+          "name": "Reckitt Brasil / Reckitt Global",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://www.reckitt.com/br/",
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["higiene", "saude", "limpeza", "embalagens", "sustentabilidade"]
+        },
+        {
+          "id": "vestacy",
+          "name": "Vestacy",
+          "layer": 1,
+          "cadence": "weekly",
+          "homepage": "https://www.vestacy.com.br/",
+          "requiresManualUrlReview": true,
+          "officialCompany": true,
+          "priorityCompany": true,
+          "focus": ["bens de consumo", "marca prioritaria", "embalagens"]
+        },
+        {
+          "id": "beautycare-brazil",
+          "name": "BeautycareBrazil",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://beautycarebrazil.org.br/",
+          "editionRequired": true,
+          "focus": ["cosmeticos", "mercado externo", "tendencias", "embalagens"]
+        },
+        {
+          "id": "cosmetic-innovation",
+          "name": "CosmeticInnovation",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://cosmeticinnovation.com.br/",
+          "editionRequired": true,
+          "focus": ["cosmeticos", "inovacao", "produto", "embalagem"]
+        },
+        {
+          "id": "meio-mensagem-consumer",
+          "name": "Meio & Mensagem",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.meioemensagem.com.br/",
+          "focus": ["marca", "produto", "campanha com mudanca real", "categoria"]
+        },
+        {
+          "id": "mundo-marketing-consumer",
+          "name": "Mundo do Marketing",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://www.mundodomarketing.com.br/",
+          "focus": ["marketing", "produto", "categoria", "marca"]
+        },
+        {
+          "id": "mercado-consumo-consumer",
+          "name": "Mercado & Consumo",
+          "layer": 2,
+          "cadence": "biweekly",
+          "homepage": "https://mercadoeconsumo.com.br/",
+          "focus": ["varejo", "consumo", "categoria", "lancamentos"]
+        }
+      ]
+    }
+  ]
+}

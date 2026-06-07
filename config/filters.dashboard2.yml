@@ -1,0 +1,35 @@
+{
+  "_formatNote": "Filtros e opcoes usados no frontend e na validacao de feedback.",
+  "segments": ["packaging", "beverages", "appliances", "consumer_goods"],
+  "relevanceLevels": ["alta", "media", "baixa"],
+  "recommendedActions": [
+    "monitorar",
+    "contatar cliente",
+    "preparar argumento tecnico",
+    "acompanhar feira",
+    "mapear oportunidade",
+    "revisar manualmente",
+    "descartar"
+  ],
+  "originTypes": [
+    "noticia do site",
+    "release",
+    "edicao da revista",
+    "PDF",
+    "flipbook",
+    "relatorio",
+    "publicacao institucional",
+    "pagina de evento",
+    "post oficial",
+    "data incerta"
+  ],
+  "feedbackTypes": [
+    "Util",
+    "Nao relevante",
+    "Ja sabia",
+    "Virou oportunidade",
+    "Precisa revisar",
+    "Sugerir acao comercial"
+  ],
+  "feedbackPriorities": ["baixa", "media", "alta"]
+}

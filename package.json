@@ -1,0 +1,21 @@
+{
+  "name": "dashboard2-radar-mercados-avient",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Dashboard 2 - Radar Mercados de Aplicacao & Brand Owners Avient",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "lint": "node scripts/lint.js",
+    "test": "node --test",
+    "collect:dashboard2": "node scripts/collect-dashboard2.js",
+    "export:csv": "node scripts/export-csv.js",
+    "export:pdf": "node scripts/export-pdf.js",
+    "feedback:suggestions": "node scripts/feedback-suggestions.js",
+    "build": "node scripts/build-dashboard2.js",
+    "hash:password": "node scripts/hash-password.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
