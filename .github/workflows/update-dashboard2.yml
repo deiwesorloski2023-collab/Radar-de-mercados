@@ -1,6 +1,45 @@
 name: Update Dashboard 2
 
 on:
+  workflow_dispatch:
+    inputs:
+      force_all:
+        description: "Consultar todas as fontes, ignorando frequencia operacional"
+        required: false
+        default: "false"
+      force_segment:
+        description: "Segmento especifico: packaging, beverages, appliances ou consumer_goods"
+        required: false
+        default: ""
+      dry_run:
+        description: "Executar sem gerar/deployar arquivos"
+        required: false
+        default: "false"
+      max_items:
+        description: "Limite bruto de candidatos processados"
+        required: false
+        default: "5000"
+      timeout_ms:
+        description: "Timeout por URL em milissegundos"
+        required: false
+        default: "7000"
+      segment_concurrency:
+        description: "Frentes de pesquisa consultadas em paralelo"
+        required: false
+        default: "2"
+      source_concurrency:
+        description: "Fontes consultadas em paralelo por frente"
+        required: false
+        default: "2"
+      run_pdf_only:
+        description: "Regenerar apenas PDFs"
+        required: false
+        default: "false"
+      run_feedback_suggestions_only:
+        description: "Gerar apenas sugestoes baseadas em feedback"
+        required: false
+        default: "false"
+
   schedule:
     - cron: "30 10 * * 1"
   workflow_dispatch:
