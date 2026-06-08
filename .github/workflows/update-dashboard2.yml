@@ -36,19 +36,19 @@ on:
     - cron: "30 10 * * 1"
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   update:
     runs-on: ubuntu-latest
     env:
       TZ: America/Sao_Paulo
-      NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-      NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID_2 }}
 
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -80,25 +80,30 @@ jobs:
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: npm run build
 
-      - name: Check Netlify credentials
+      - name: Commit updated dashboard data
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
-          test -n "$NETLIFY_AUTH_TOKEN" || (echo "NETLIFY_AUTH_TOKEN vazio" && exit 1)
-          test -n "$NETLIFY_SITE_ID" || (echo "NETLIFY_SITE_ID vazio" && exit 1)
-          status=$(curl -s -o /tmp/netlify-site.json -w "%{http_code}" \
-            -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
-            "https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID")
-          echo "Netlify API status: $status"
-          if [ "$status" != "200" ]; then
-            cat /tmp/netlify-site.json
-            exit 1
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add public/data/dashboard2-latest.json
+          git add public/exports/dashboard2-latest.csv
+          git add public/exports/dashboard2-executive.pdf
+          git add public/exports/dashboard2-full.pdf
+          git add dist/index.html
+          git add dist/data/dashboard2-latest.json
+          git add dist/exports/dashboard2-latest.csv
+          git add dist/exports/dashboard2-executive.pdf
+          git add dist/exports/dashboard2-full.pdf
+
+          if git diff --cached --quiet; then
+            echo "Sem mudancas para commitar."
+          else
+            git commit -m "Atualizar Dashboard 2"
+            git push
           fi
 
-      - name: Deploy to Netlify
-        if: ${{ github.event.inputs.dry_run != 'true' }}
-        run: npx netlify deploy --prod --dir=dist --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN"
-
-      - name: Upload logs and latest artifacts
+      - name: Upload latest artifacts
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -108,4 +113,5 @@ jobs:
             public/exports/dashboard2-latest.csv
             public/exports/dashboard2-executive.pdf
             public/exports/dashboard2-full.pdf
+            dist/index.html
           retention-days: 7
