@@ -9,7 +9,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 4 0 obj
-<< /Length 2996 >>
+<< /Length 2963 >>
 stream
 BT
 /F1 10 Tf
@@ -18,9 +18,9 @@ BT
 0 -24 Td
 (Dashboard 2 - Radar Mercados de Aplicacao & Brand Owners Avient) Tj
 0 -15 Td
-(Atualizacao: 07/06/2026) Tj
+(Atualizacao: 08/06/2026) Tj
 0 -15 Td
-(Janela obrigatoria: 08/05/2026 a 07/06/2026) Tj
+(Janela obrigatoria: 09/05/2026 a 08/06/2026) Tj
 0 -15 Td
 (Status: concluido com falhas por fonte) Tj
 0 -15 Td
@@ -54,7 +54,7 @@ BT
 0 -15 Td
 (30) Tj
 0 -15 Td
-(Fonte: CosmeticInnovation | Data: 2026-06-03) Tj
+(Fonte: CosmeticInnovation | Data: 2026-06-08) Tj
 0 -15 Td
 (Resumo: By signing up, you agree to the our terms and our Privacy Policy agreement.) Tj
 0 -15 Td
@@ -78,7 +78,7 @@ BT
 0 -15 Td
 (EUA) Tj
 0 -15 Td
-(Fonte: CosmeticInnovation | Data: 2026-06-03) Tj
+(Fonte: CosmeticInnovation | Data: 2026-06-08) Tj
 0 -15 Td
 (Resumo: Receba as principais noticias e tendencias do setor direto no seu e-mail.) Tj
 0 -15 Td
@@ -98,11 +98,11 @@ BT
 0 -15 Td
 (Monitoramento secundario) Tj
 0 -15 Td
-(- Bens de Consumo: LOccitane au Bresil amplia linha Puro Suco com lancamentos em diferentes) Tj
-0 -15 Td
-(tamanhos para a rotina de viagem \(CosmeticInnovation, score 30\)) Tj
-0 -15 Td
 (- Bens de Consumo: Efeito imediato: cosmeticos que conquistam o consumidor na primeira aplicacao) Tj
+0 -15 Td
+(\(CosmeticInnovation, score 30\)) Tj
+0 -15 Td
+(- Bens de Consumo: LOccitane au Bresil amplia linha Puro Suco com lancamentos em diferentes) Tj
 0 -15 Td
 ET
 endstream
@@ -111,14 +111,14 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
 endobj
 6 0 obj
-<< /Length 2717 >>
+<< /Length 2772 >>
 stream
 BT
 /F1 10 Tf
 50 748 Td
 (Dashboard 2 - PDF completo) Tj
 0 -24 Td
-(\(CosmeticInnovation, score 30\)) Tj
+(tamanhos para a rotina de viagem \(CosmeticInnovation, score 30\)) Tj
 0 -15 Td
 () Tj
 0 -15 Td
@@ -148,9 +148,9 @@ BT
 0 -15 Td
 (- Bebidas | Coca-Cola Brasil: sucesso) Tj
 0 -15 Td
-(- Bebidas | Coca-Cola FEMSA: falha de acesso) Tj
+(- Bebidas | Coca-Cola FEMSA: sem noticia relevante) Tj
 0 -15 Td
-(- Bebidas | Ambev: sem noticia relevante) Tj
+(- Bebidas | Ambev: falha de acesso) Tj
 0 -15 Td
 (- Bebidas | CitrusBR: sucesso) Tj
 0 -15 Td
@@ -182,13 +182,13 @@ BT
 0 -15 Td
 (- Eletrodomesticos | Arno / Groupe SEB: sucesso) Tj
 0 -15 Td
-(- Eletrodomesticos | Eletrolar Show: sucesso) Tj
+(- Eletrodomesticos | Eletrolar Show: falha de acesso) Tj
 0 -15 Td
 (- Eletrodomesticos | Mercado & Consumo: sem noticia relevante) Tj
 0 -15 Td
 (- Eletrodomesticos | Mundo do Marketing: sucesso) Tj
 0 -15 Td
-(- Eletrodomesticos | Meio & Mensagem: sucesso) Tj
+(- Eletrodomesticos | Meio & Mensagem: sem noticia relevante) Tj
 0 -15 Td
 (- Bens de Consumo | ABIHPEC: sucesso) Tj
 0 -15 Td
@@ -213,7 +213,7 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
 endobj
 8 0 obj
-<< /Length 3157 >>
+<< /Length 3159 >>
 stream
 BT
 /F1 10 Tf
@@ -222,7 +222,7 @@ BT
 0 -24 Td
 (- Bens de Consumo | CosmeticInnovation: sucesso) Tj
 0 -15 Td
-(- Bens de Consumo | Meio & Mensagem: sucesso) Tj
+(- Bens de Consumo | Meio & Mensagem: sem noticia relevante) Tj
 0 -15 Td
 (- Bens de Consumo | Mundo do Marketing: sucesso) Tj
 0 -15 Td
@@ -232,9 +232,11 @@ BT
 0 -15 Td
 (Falhas de coleta) Tj
 0 -15 Td
-(- Coca-Cola FEMSA: HTTP 403 em https://coca-colafemsa.com/) Tj
+(- Ambev: HTTP 403 em https://www.ambev.com.br/) Tj
 0 -15 Td
 (- Zanlorenzi / Campo Largo / Oh!Tea: fetch failed) Tj
+0 -15 Td
+(- Eletrolar Show: fetch failed) Tj
 0 -15 Td
 (- Vestacy: URL marcada para revisao manual antes da coleta automatica.) Tj
 0 -15 Td
@@ -306,8 +308,6 @@ BT
 0 -15 Td
 (- Conferencia Internacional sobre Reciclagem de Embalagens \(CETEA / ITAL\)) Tj
 0 -15 Td
-(- Competitividade \(Embanews\)) Tj
-0 -15 Td
 ET
 endstream
 endobj
@@ -315,13 +315,15 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
 endobj
 10 0 obj
-<< /Length 3399 >>
+<< /Length 3303 >>
 stream
 BT
 /F1 10 Tf
 50 748 Td
 (Dashboard 2 - PDF completo) Tj
 0 -24 Td
+(- Competitividade \(Embanews\)) Tj
+0 -15 Td
 (- Petroquimica \(Embanews\)) Tj
 0 -15 Td
 (- ESTRATEGIA, EXECUCAO E PESSOAS: O TRIANGULO DA PERFORMANCE SUSTENTAVEL \(Embanews\)) Tj
@@ -340,11 +342,9 @@ BT
 0 -15 Td
 (ate o final de 2026 \(Engarrafador Moderno\)) Tj
 0 -15 Td
-(- Embalagens Naturagua inova ao lancar embalagem de 5L que cabe na porta... Por esse lancamento,) Tj
+(- Embalagens Naturagua inova ao lancar embalagem de 5L... Por esse lancamento, a empresa recebeu) Tj
 0 -15 Td
-(a empresa recebeu oficialmente o WorldStar Award 2026, em cerimonia realizada... \(Engarrafador) Tj
-0 -15 Td
-(Moderno\)) Tj
+(oficialmente o WorldStar Award... \(Engarrafador Moderno\)) Tj
 0 -15 Td
 (- Sustentabilidade \(Coca-Cola Brasil\)) Tj
 0 -15 Td
@@ -364,6 +364,10 @@ BT
 0 -15 Td
 (- Sustentabilidade \(ABIA\)) Tj
 0 -15 Td
+(- PepsiCo e Rede Sul lancam programa para impulsionar a renda e profissionalizar a reciclagem...) Tj
+0 -15 Td
+(\(ABIA\)) Tj
+0 -15 Td
 (- Tetra Pak aposta em tecnologia e eficiencia para sustentar a longa vida dos alimentos \(ABIA\)) Tj
 0 -15 Td
 (- SUSTENTABILIDADE \(Fispal Tecnologia\)) Tj
@@ -372,21 +376,17 @@ BT
 0 -15 Td
 (- Interior Lifestyle reforca elo entre design e varejo \(Eletrolar News / Portal Eletrolar\)) Tj
 0 -15 Td
-(- Home decor Design e estilo de vida para o mercado latino-americano. \(Eletrolar Show\)) Tj
+(- Lancamentos Aspirador e Limpadora de Pisos Sem Fio Arno X-CLEAN 4 LXC4 Bivolt Voltagem Bivolt) Tj
+0 -15 Td
+(R$ 2 . 999 , 99 a vista ou ate 6 x R$ 499 , 99 sem juros ADICIONAR AO CARRINHO \(Arno / Groupe) Tj
+0 -15 Td
+(SEB\)) Tj
 0 -15 Td
 (- Sustentabilidade \(Eletrolar News / Portal Eletrolar\)) Tj
 0 -15 Td
 (- Eletrodomesticos \(Mondial\)) Tj
 0 -15 Td
 (- Praticas sustentaveis \(Eletros\)) Tj
-0 -15 Td
-(- Bens de consumo O maior evento B2B de eletroeletronicos e eletrodomesticos da America Latina.) Tj
-0 -15 Td
-(\(Eletrolar Show\)) Tj
-0 -15 Td
-(- Mobilidade A proxima era da mobilidade eletrica e sustentavel. \(Eletrolar Show\)) Tj
-0 -15 Td
-(- Fornecedores Fornecedores globais com produtos inovadores e competitivos. \(Eletrolar Show\)) Tj
 0 -15 Td
 (- eletrodomesticos para casa \(Arno / Groupe SEB\)) Tj
 0 -15 Td
@@ -417,30 +417,18 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
 endobj
 12 0 obj
-<< /Length 1189 >>
+<< /Length 616 >>
 stream
 BT
 /F1 10 Tf
 50 748 Td
 (Dashboard 2 - PDF completo) Tj
 0 -24 Td
-(- snacks Pringles faz aposta inedita em nachos no Brasil Lancamento exclusivo no Pais amplia) Tj
-0 -15 Td
-(portfolio da marca e acirra a disputa na categoria de salgadinhos 3 dias atras \(Meio & Mensagem\)) Tj
-0 -15 Td
-(- Cultura pop He-Man e os Mestres do Universo: do live-action ao licenciamento Gerente da Mattel) Tj
-0 -15 Td
-(revela as estrategias da marca para o lancamento do filme no Brasil 3 dias atras \(Meio &) Tj
-0 -15 Td
-(Mensagem\)) Tj
-0 -15 Td
 (- Desafios da reciclagem de embalagens no Brasil \(ABIHPEC\)) Tj
 0 -15 Td
 (- Guia pratico: reciclagem de embalagens de produtos de beleza \(ABIHPEC\)) Tj
 0 -15 Td
 (- Reciclagem de embalagens de cosmeticos: guia completo \(ABIHPEC\)) Tj
-0 -15 Td
-(- SUSTENTABILIDADE Aportes em ESG devem diminuir no proximo ano, aponta estudo \(Meio & Mensagem\)) Tj
 0 -15 Td
 (- Desenvolvimento Sustentavel \(ABIHPEC\)) Tj
 0 -15 Td
@@ -463,17 +451,17 @@ xref
 0000000058 00000 n 
 0000000141 00000 n 
 0000000211 00000 n 
-0000003259 00000 n 
-0000003385 00000 n 
-0000006154 00000 n 
-0000006280 00000 n 
-0000009489 00000 n 
-0000009615 00000 n 
-0000013067 00000 n 
-0000013195 00000 n 
-0000014437 00000 n 
+0000003226 00000 n 
+0000003352 00000 n 
+0000006176 00000 n 
+0000006302 00000 n 
+0000009513 00000 n 
+0000009639 00000 n 
+0000012995 00000 n 
+0000013123 00000 n 
+0000013791 00000 n 
 trailer
 << /Size 14 /Root 1 0 R >>
 startxref
-14565
+13919
 %%EOF
