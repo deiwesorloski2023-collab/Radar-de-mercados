@@ -1,4 +1,4 @@
-# Radar de Mercados
+# Dashboard 2 - Radar Mercados de Aplicacao & Brand Owners Avient
 
 Projeto vivo para monitorar mercados de aplicacao que possam gerar oportunidades comerciais, tecnicas ou estrategicas para Avient no Brasil e na America do Sul.
 
@@ -12,6 +12,8 @@ O dashboard monitora, nesta ordem visual obrigatoria:
 4. Bens de Consumo
 
 A janela de analise e sempre de 30 dias corridos em relacao a data da execucao em `America/Sao_Paulo`. Conteudo antigo nao entra nos cards principais nem no monitoramento secundario.
+
+O criterio principal nao e "noticia de brand owner" por si so. Cada noticia coletada deve ser avaliada pelo sinal para o negocio da Avient: oportunidade comercial, movimento estrategico, acao tatica de curto prazo, pressao regulatoria, sustentabilidade, investimento, supply chain, evento tecnico/comercial, portfolio, design, cor, performance, embalagem ou material.
 
 ## Como rodar localmente
 
@@ -45,7 +47,10 @@ npm run collect:dashboard2 -- dry_run=true
 npm run collect:dashboard2 -- max_items=80
 npm run collect:dashboard2 -- run_pdf_only=true
 npm run collect:dashboard2 -- run_feedback_suggestions_only=true
+npm run collect:dashboard2 -- force_all=true max_items=5000 timeout_ms=7000 segment_concurrency=2 source_concurrency=2
 ```
+
+Para uma coleta completa e eficiente, use `segment_concurrency=2` e `source_concurrency=2`: isso consulta ate duas frentes de pesquisa ao mesmo tempo e ate duas fontes por frente, sem abrir conexoes demais contra os sites.
 
 ## Fontes e frequencia
 
@@ -70,6 +75,13 @@ Pesos, termos, tags e empresas prioritarias ficam em `config/scoring.dashboard2.
 
 A classificacao heuristica e obrigatoria. O LLM e opcional e nunca deve ser necessario para o dashboard rodar.
 
+O scoring combina duas camadas:
+
+- sinais tecnicos tradicionais: embalagem, PET/rPET/PCR, materiais, cor, acabamento, aditivos, masterbatch, reciclabilidade, refil, rotulo, tampa e componentes;
+- sinais de negocio para Avient: gatilho comercial de curto prazo, movimento estrategico, regulacao/sustentabilidade, investimento/supply chain, evento, mudanca de portfolio/design e sinal fraco promissor.
+
+Cada card gerado deve indicar sinal de negocio, impacto, urgencia, area sugerida e proxima acao. Brand owners e mercados de aplicacao funcionam como contexto para priorizacao, nao como fim do radar.
+
 ## Exportacoes
 
 Arquivos gerados:
@@ -82,9 +94,9 @@ O build copia esses arquivos para `dist/exports/`.
 
 ## Protecao por senha
 
-A protecao usa `netlify/edge-functions/auth.js`, antes da entrega do conteudo estatico.
+O deploy publico fica sem senha por padrao. A funcao `netlify/edge-functions/auth.js` permanece no projeto apenas como opcao futura, mas nao esta conectada no `netlify.toml`.
 
-Configure no Netlify:
+Se quiser reativar senha depois, adicione novamente a rota `[[edge_functions]]` no `netlify.toml` e configure no Netlify:
 
 ```bash
 DASHBOARD_AUTH_ENABLED=true
@@ -149,8 +161,8 @@ Secrets esperados:
 - `NETLIFY_BUILD_HOOK_URL`, opcional
 - `OPENAI_API_KEY`, opcional
 - `FEEDBACK_GITHUB_TOKEN`, opcional
-- `DASHBOARD_PASSWORD_HASH`
-- `DASHBOARD_SESSION_SECRET`
+- `DASHBOARD_PASSWORD_HASH`, opcional se a protecao por senha for reativada
+- `DASHBOARD_SESSION_SECRET`, opcional se a protecao por senha for reativada
 
 Vars esperadas:
 
@@ -166,13 +178,13 @@ Configuracao em `netlify.toml`:
 - build command: `npm run build`
 - publish: `dist`
 - functions: `netlify/functions`
-- edge function: `auth` em todas as rotas
+- edge function: desativada por padrao
 
 Passos:
 
 1. Conectar o repositorio `DRO26` ao Netlify.
 2. Configurar build command e publish directory.
-3. Configurar variaveis de ambiente.
+3. Configurar variaveis de ambiente opcionais.
 4. Ativar Netlify Forms.
 5. Configurar feedback via GitHub Issues, se desejado.
 6. Rodar o workflow manualmente para testar.
@@ -224,4 +236,3 @@ Cada fonte tem status independente:
 - ultima edicao sem data identificavel
 
 Falhas de uma fonte nao devem quebrar o dashboard inteiro.
-
