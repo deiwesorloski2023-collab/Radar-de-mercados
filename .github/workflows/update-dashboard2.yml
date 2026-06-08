@@ -100,7 +100,20 @@ jobs:
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: npm run build
 
-      - name: Deploy to Netlify
+      - name: Check Netlify credentials
+        run: |
+          test -n "$NETLIFY_AUTH_TOKEN" || (echo "NETLIFY_AUTH_TOKEN vazio" && exit 1)
+          test -n "$NETLIFY_SITE_ID" || (echo "NETLIFY_SITE_ID vazio" && exit 1)
+          status=$(curl -s -o /tmp/netlify-site.json -w "%{http_code}" \
+            -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+            "https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID")
+          echo "Netlify API status: $status"
+          if [ "$status" != "200" ]; then
+            cat /tmp/netlify-site.json
+            exit 1
+          fi
+
+        - name: Deploy to Netlify
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: npx netlify deploy --prod --dir=dist --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN"
 
