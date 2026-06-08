@@ -31,55 +31,9 @@ on:
         description: "Fontes consultadas em paralelo por frente"
         required: false
         default: "2"
-      run_pdf_only:
-        description: "Regenerar apenas PDFs"
-        required: false
-        default: "false"
-      run_feedback_suggestions_only:
-        description: "Gerar apenas sugestoes baseadas em feedback"
-        required: false
-        default: "false"
 
   schedule:
     - cron: "30 10 * * 1"
-  workflow_dispatch:
-    inputs:
-      force_all:
-        description: "Consultar todas as fontes, ignorando frequencia operacional"
-        required: false
-        default: "false"
-      force_segment:
-        description: "Segmento especifico: packaging, beverages, appliances ou consumer_goods"
-        required: false
-        default: ""
-      dry_run:
-        description: "Executar sem gerar/deployar arquivos"
-        required: false
-        default: "false"
-      max_items:
-        description: "Limite bruto de candidatos processados"
-        required: false
-        default: "5000"
-      timeout_ms:
-        description: "Timeout por URL em milissegundos"
-        required: false
-        default: "7000"
-      segment_concurrency:
-        description: "Frentes de pesquisa consultadas em paralelo"
-        required: false
-        default: "2"
-      source_concurrency:
-        description: "Fontes consultadas em paralelo por frente"
-        required: false
-        default: "2"
-      run_pdf_only:
-        description: "Regenerar apenas PDFs"
-        required: false
-        default: "false"
-      run_feedback_suggestions_only:
-        description: "Gerar apenas sugestoes baseadas em feedback"
-        required: false
-        default: "false"
 
 permissions:
   contents: read
@@ -89,13 +43,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       TZ: America/Sao_Paulo
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
       NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      NETLIFY_BUILD_HOOK_URL: ${{ secrets.NETLIFY_BUILD_HOOK_URL }}
-      FEEDBACK_GITHUB_TOKEN: ${{ secrets.FEEDBACK_GITHUB_TOKEN }}
-      FEEDBACK_REPO_OWNER: ${{ vars.FEEDBACK_REPO_OWNER }}
-      FEEDBACK_REPO_NAME: ${{ vars.FEEDBACK_REPO_NAME }}
 
     steps:
       - name: Checkout
@@ -116,7 +65,7 @@ jobs:
         run: npm run test
 
       - name: Collect dashboard data
-        if: ${{ github.event.inputs.run_pdf_only != 'true' && github.event.inputs.run_feedback_suggestions_only != 'true' }}
+        if: ${{ github.event.inputs.dry_run != 'true' }}
         run: >
           npm run collect:dashboard2 --
           max_items=${{ github.event.inputs.max_items || '5000' }}
@@ -125,21 +74,14 @@ jobs:
           source_concurrency=${{ github.event.inputs.source_concurrency || '2' }}
           force_all=${{ github.event.inputs.force_all || 'false' }}
           force_segment=${{ github.event.inputs.force_segment || '' }}
-          dry_run=${{ github.event.inputs.dry_run || 'false' }}
-
-      - name: Feedback suggestions only
-        if: ${{ github.event.inputs.run_feedback_suggestions_only == 'true' }}
-        run: npm run feedback:suggestions
-
-      - name: PDFs only
-        if: ${{ github.event.inputs.run_pdf_only == 'true' }}
-        run: npm run export:pdf
+          dry_run=false
 
       - name: Build static dashboard
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: npm run build
 
       - name: Check Netlify credentials
+        if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
           test -n "$NETLIFY_AUTH_TOKEN" || (echo "NETLIFY_AUTH_TOKEN vazio" && exit 1)
           test -n "$NETLIFY_SITE_ID" || (echo "NETLIFY_SITE_ID vazio" && exit 1)
@@ -152,13 +94,9 @@ jobs:
             exit 1
           fi
 
-        - name: Deploy to Netlify
+      - name: Deploy to Netlify
         if: ${{ github.event.inputs.dry_run != 'true' }}
         run: npx netlify deploy --prod --dir=dist --site "$NETLIFY_SITE_ID" --auth "$NETLIFY_AUTH_TOKEN"
-
-      - name: Trigger Netlify build hook fallback
-        if: ${{ github.event.inputs.dry_run != 'true' && (env.NETLIFY_AUTH_TOKEN == '' || env.NETLIFY_SITE_ID == '') && env.NETLIFY_BUILD_HOOK_URL != '' }}
-        run: curl -X POST "$NETLIFY_BUILD_HOOK_URL"
 
       - name: Upload logs and latest artifacts
         if: always()
@@ -167,7 +105,6 @@ jobs:
           name: dashboard2-run
           path: |
             public/data/dashboard2-latest.json
-            public/data/dashboard2-feedback-suggestions.json
             public/exports/dashboard2-latest.csv
             public/exports/dashboard2-executive.pdf
             public/exports/dashboard2-full.pdf
