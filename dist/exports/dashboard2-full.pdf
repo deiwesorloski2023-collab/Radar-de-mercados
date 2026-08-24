@@ -3,13 +3,13 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R 11 0 R] /Count 4 >>
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
 endobj
 3 0 obj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
 endobj
 4 0 obj
-<< /Length 2609 >>
+<< /Length 2820 >>
 stream
 BT
 /F1 10 Tf
@@ -18,9 +18,9 @@ BT
 0 -24 Td
 (Dashboard 2 - Radar Mercados de Aplicacao & Brand Owners Avient) Tj
 0 -15 Td
-(Atualizacao: 17/08/2026) Tj
+(Atualizacao: 24/08/2026) Tj
 0 -15 Td
-(Janela obrigatoria: 18/07/2026 a 17/08/2026) Tj
+(Janela obrigatoria: 25/07/2026 a 24/08/2026) Tj
 0 -15 Td
 (Status: concluido com falhas por fonte) Tj
 0 -15 Td
@@ -78,31 +78,31 @@ BT
 0 -15 Td
 (- Bebidas | Coca-Cola Brasil: sucesso) Tj
 0 -15 Td
-(- Bebidas | Coca-Cola FEMSA: sem noticia relevante) Tj
+(- Bebidas | Coca-Cola FEMSA: falha de acesso) Tj
 0 -15 Td
 (- Bebidas | Ambev: falha de acesso) Tj
 0 -15 Td
-(- Bebidas | CitrusBR: sucesso) Tj
+(- Bebidas | CitrusBR: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bebidas | ABIA: sucesso) Tj
+(- Bebidas | ABIA: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bebidas | Heineken Brasil: sucesso) Tj
+(- Bebidas | Heineken Brasil: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bebidas | Grupo Petropolis: sem noticia relevante) Tj
+(- Bebidas | Grupo Petropolis: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bebidas | Natural One: sem noticia relevante) Tj
+(- Bebidas | Natural One: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bebidas | Leao / Matte Leao / Coca-Cola: sucesso) Tj
+(- Bebidas | Leao / Matte Leao / Coca-Cola: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bebidas | Zanlorenzi / Campo Largo / Oh!Tea: falha de acesso) Tj
+(- Bebidas | Zanlorenzi / Campo Largo / Oh!Tea: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bebidas | Fispal Tecnologia: sucesso) Tj
+(- Bebidas | Fispal Tecnologia: fora da frequencia operacional) Tj
 0 -15 Td
-(- Eletrodomesticos | Eletros: sucesso) Tj
+(- Eletrodomesticos | Eletros: fora da frequencia operacional) Tj
 0 -15 Td
-(- Eletrodomesticos | Eletrolar News / Portal Eletrolar: sucesso) Tj
+(- Eletrodomesticos | Eletrolar News / Portal Eletrolar: fora da frequencia operacional) Tj
 0 -15 Td
-(- Eletrodomesticos | Mondial: sucesso) Tj
+(- Eletrodomesticos | Mondial: fora da frequencia operacional) Tj
 0 -15 Td
 ET
 endstream
@@ -111,20 +111,20 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
 endobj
 6 0 obj
-<< /Length 3220 >>
+<< /Length 3440 >>
 stream
 BT
 /F1 10 Tf
 50 748 Td
 (Dashboard 2 - PDF completo) Tj
 0 -24 Td
-(- Eletrodomesticos | Electrolux: sucesso) Tj
+(- Eletrodomesticos | Electrolux: fora da frequencia operacional) Tj
 0 -15 Td
-(- Eletrodomesticos | Whirlpool / Brastemp / Consul: sucesso) Tj
+(- Eletrodomesticos | Whirlpool / Brastemp / Consul: fora da frequencia operacional) Tj
 0 -15 Td
-(- Eletrodomesticos | Britania / Philco: sem noticia relevante) Tj
+(- Eletrodomesticos | Britania / Philco: fora da frequencia operacional) Tj
 0 -15 Td
-(- Eletrodomesticos | Arno / Groupe SEB: sucesso) Tj
+(- Eletrodomesticos | Arno / Groupe SEB: fora da frequencia operacional) Tj
 0 -15 Td
 (- Eletrodomesticos | Eletrolar Show: fora da frequencia operacional) Tj
 0 -15 Td
@@ -148,39 +148,41 @@ BT
 0 -15 Td
 (- Bens de Consumo | Vestacy: falha de acesso) Tj
 0 -15 Td
-(- Bens de Consumo | BeautycareBrazil: sem noticia relevante) Tj
+(- Bens de Consumo | BeautycareBrazil: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bens de Consumo | CosmeticInnovation: falha de acesso) Tj
+(- Bens de Consumo | CosmeticInnovation: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bens de Consumo | Meio & Mensagem: sem noticia relevante) Tj
+(- Bens de Consumo | Meio & Mensagem: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bens de Consumo | Mundo do Marketing: sem noticia relevante) Tj
+(- Bens de Consumo | Mundo do Marketing: fora da frequencia operacional) Tj
 0 -15 Td
-(- Bens de Consumo | Mercado & Consumo: sem noticia relevante) Tj
+(- Bens de Consumo | Mercado & Consumo: fora da frequencia operacional) Tj
 0 -15 Td
 () Tj
 0 -15 Td
 (Falhas de coleta) Tj
 0 -15 Td
-(- Ambev: HTTP 403 em https://www.ambev.com.br/) Tj
+(- Coca-Cola FEMSA: HTTP 403 em https://coca-colafemsa.com/) Tj
 0 -15 Td
-(- Zanlorenzi / Campo Largo / Oh!Tea: fetch failed) Tj
+(- Ambev: HTTP 403 em https://www.ambev.com.br/) Tj
 0 -15 Td
 (- Reckitt Brasil / Reckitt Global: HTTP 404 em https://www.reckitt.com/br/) Tj
 0 -15 Td
 (- Vestacy: URL marcada para revisao manual antes da coleta automatica.) Tj
 0 -15 Td
-(- CosmeticInnovation: HTTP 403 em https://cosmeticinnovation.com.br/) Tj
-0 -15 Td
 () Tj
 0 -15 Td
 (Itens para revisao manual) Tj
 0 -15 Td
-(- A garrafa quadrada da Heineken \(EmbalagemMarca\)) Tj
+(- Heineken recicla mais de 30 toneladas de vidro nos Lencois Maranhenses \(EmbalagemMarca\)) Tj
+0 -15 Td
+(- Heineken recicla mais de 30 toneladas de vidro nos Lencois Maranhenses \(EmbalagemMarca\)) Tj
 0 -15 Td
 (- PPWR, impressao de embalagens e reciclabilidade: uma analise da realidade \(EmbalagemMarca\)) Tj
 0 -15 Td
-(- PPWR, impressao de embalagens e reciclabilidade: uma analise da realidade \(EmbalagemMarca\)) Tj
+(- Industria intensifica lancamentos e registra recorde em julho \(EmbalagemMarca\)) Tj
+0 -15 Td
+(- Nutry amplia portfolio de barras com lancamento de Whey Soft \(EmbalagemMarca\)) Tj
 0 -15 Td
 (- Pedigree lanca nova linha de saches inspirada em sabores brasileiros \(EmbalagemMarca\)) Tj
 0 -15 Td
@@ -198,13 +200,11 @@ BT
 0 -15 Td
 (\(EmbalagemMarca\)) Tj
 0 -15 Td
-(- Copacol apresenta solucao inedita em embalagem para air fryer \(EmbalagemMarca\)) Tj
+(- Heinz apresenta tampa de ketchup ajustavel \(EmbalagemMarca\)) Tj
 0 -15 Td
 (- Sustentabilidade \(EmbalagemMarca\)) Tj
 0 -15 Td
-(- Heinz apresenta tampa de ketchup ajustavel \(EmbalagemMarca\)) Tj
-0 -15 Td
-(- Grandes Cases de Embalagem \(EmbalagemMarca\)) Tj
+(- DHL adota embalagem termica com autonomia de ate 195 horas \(EmbalagemMarca\)) Tj
 0 -15 Td
 ET
 endstream
@@ -213,28 +213,22 @@ endobj
 << /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 6 0 R >>
 endobj
 8 0 obj
-<< /Length 3552 >>
+<< /Length 2840 >>
 stream
 BT
 /F1 10 Tf
 50 748 Td
 (Dashboard 2 - PDF completo) Tj
 0 -24 Td
+(- Grandes Cases de Embalagem \(EmbalagemMarca\)) Tj
+0 -15 Td
 (- LUBRAX LANCA EMBALAGEM COM 65% MENOS PLASTICO E AVANCA NA INOVACAO DO MERCADO DE LUBRIFICANTES) Tj
 0 -15 Td
 (\(Embanews\)) Tj
 0 -15 Td
-(- Alimentos Um lancamento que comeca pelo Brasil 12 de agosto de 2026  2 min \(Revista Pack\)) Tj
+(- Bebidas A embalagem como experiencia Aluminio e circularidade 19 de agosto de 2026  2 min) Tj
 0 -15 Td
-(- Destaque A Uniao Europeia vem consolidando um conjunto de normas voltadas a economia circular,) Tj
-0 -15 Td
-(ao ecodesign e a transparencia das alegacoes ambientais 6 de agosto de 2026  3 min \(Revista) Tj
-0 -15 Td
-(Pack\)) Tj
-0 -15 Td
-(- Tecnologia Nova tecnologia de lavagem amplia eficiencia de garrafas de vidro reutilizaveis na) Tj
-0 -15 Td
-(industria de bebidas 26 de junho de 2026  2 min \(Revista Pack\)) Tj
+(\(Revista Pack\)) Tj
 0 -15 Td
 (- Sustentabilidade \(Embanews\)) Tj
 0 -15 Td
@@ -252,107 +246,37 @@ BT
 0 -15 Td
 (- BIOPOLIMEROS: O FUTURO SUSTENTAVEL DOS PLASTICOS \(Embanews\)) Tj
 0 -15 Td
-(- Bebidas O luxo tambem esta nos detalhes Quanto maior o valor percebido do produto, maior a) Tj
-0 -15 Td
-(responsabilidade da embalagem 14 de agosto de 2026  2 min \(Revista Pack\)) Tj
-0 -15 Td
-(- Alimentos O que a embalagem tem a ver com isso? A validade precisa ser comprovada 14 de agosto) Tj
-0 -15 Td
-(de 2026  3 min \(Revista Pack\)) Tj
-0 -15 Td
-(- Alimentos O que emerge das pesquisas e outra tendencia: a integracao entre alimento, processo) Tj
-0 -15 Td
-(e embalagem desde o inicio do projeto. 10 de agosto de 2026  3min \(Revista Pack\)) Tj
-0 -15 Td
 (- Ultima edicao/publicacao consultada - Revista Pack \(Revista Pack\)) Tj
 0 -15 Td
 (- ESTRATEGIA, EXECUCAO E PESSOAS: O TRIANGULO DA PERFORMANCE SUSTENTAVEL \(Embanews\)) Tj
 0 -15 Td
 (- Competitividade \(Embanews\)) Tj
 0 -15 Td
-(- Destaque A industria procura solucoes que conciliem desempenho, competitividade e reducao da) Tj
+(- Industria A rastreabilidade deixou de ser um diferencial para se tornar um requisito de) Tj
 0 -15 Td
-(pegada de carbono. 13 de agosto de 2026  3 min \(Revista Pack\)) Tj
-0 -15 Td
-(- Industria Para o setor de embalagens, o cenario indica uma demanda sustentada tanto pela) Tj
-0 -15 Td
-(recuperacao da atividade industrial 6 de agosto de 2026  2 min \(Revista Pack\)) Tj
+(competitividade. 22 de julho de 2026  3 min \(Revista Pack\)) Tj
 0 -15 Td
 (- Itaipava Premium celebra a cultura de boteco com lancamento de nova embalagem \(Engarrafador) Tj
 0 -15 Td
 (Moderno\)) Tj
 0 -15 Td
-(- Sustentabilidade \(Engarrafador Moderno\)) Tj
-0 -15 Td
-(- Beverage Day traz especialista da Heineken para falar sobre Estabilizacao e Filtracao) Tj
-0 -15 Td
-(Sustentavel de Bebidas \(Engarrafador Moderno\)) Tj
-0 -15 Td
-(- Engarrafador Moderno \(Engarrafador Moderno\)) Tj
-0 -15 Td
 (- Solar Coca-Cola estabeleceu o objetivo de atingir a neutralidade de PET em solo mato-grossense) Tj
 0 -15 Td
 (ate o final de 2026 \(Engarrafador Moderno\)) Tj
 0 -15 Td
+(- Vinicola Guaspari encerra Vindima com lancamento de cha desenvolvido a partir de uvas Syrah) Tj
+0 -15 Td
+(\(Engarrafador Moderno\)) Tj
+0 -15 Td
 (- Sustentabilidade \(Coca-Cola Brasil\)) Tj
 0 -15 Td
-(- Sustentabilidade \(Heineken Brasil\)) Tj
+(- Sustentabilidade \(Engarrafador Moderno\)) Tj
 0 -15 Td
-(- Sustentabilidade \(ABIA\)) Tj
+(- Embalagens Ball divulga resultados favoraveis no... Foco no avanco de embalagens sustentaveis) Tj
 0 -15 Td
-(- Relatorio de Sustentabilidade 2025 do grupo Ferrero destaca FERRERO FARMING VALUES como pil...) Tj
+(de aluminio, com... \(Engarrafador Moderno\)) Tj
 0 -15 Td
-(\(ABIA\)) Tj
-0 -15 Td
-(- SUSTENTABILIDADE \(Fispal Tecnologia\)) Tj
-0 -15 Td
-(- Whirlpool Dishwashers Most inclusive lower rack design on the market Shop Now \(Whirlpool /) Tj
-0 -15 Td
-ET
-endstream
-endobj
-9 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
-endobj
-10 0 obj
-<< /Length 1680 >>
-stream
-BT
-/F1 10 Tf
-50 748 Td
-(Dashboard 2 - PDF completo) Tj
-0 -24 Td
-(Brastemp / Consul\)) Tj
-0 -15 Td
-(- Eletrodomesticos \(Electrolux\)) Tj
-0 -15 Td
-(- Lancamentos Limpadora de Pisos Sem Fio Arno X-CLEAN 7 LXC7 Voltagem 220V R$ 3 . 799 , 99 a) Tj
-0 -15 Td
-(vista ou ate 6 x R$ 633 , 33 sem juros ADICIONAR AO CARRINHO \(Arno / Groupe SEB\)) Tj
-0 -15 Td
-(- Lancamentos Encontre em primeira mao as novidades que acabaram de chegar a nossa loja. \(Arno /) Tj
-0 -15 Td
-(Groupe SEB\)) Tj
-0 -15 Td
-(- Sustentabilidade \(Eletrolar News / Portal Eletrolar\)) Tj
-0 -15 Td
-(- Setor de eletrodomesticos avanca no uso de plastico reciclado \(Eletrolar News / Portal) Tj
-0 -15 Td
-(Eletrolar\)) Tj
-0 -15 Td
-(- Nespresso amplia logistica reversa e lanca campanha de reciclagem \(Eletrolar News / Portal) Tj
-0 -15 Td
-(Eletrolar\)) Tj
-0 -15 Td
-(- Logistica reversa: o desafio da reciclagem no Brasil \(Live Show Eletrolar 2026\) \(Eletrolar) Tj
-0 -15 Td
-(News / Portal Eletrolar\)) Tj
-0 -15 Td
-(- Eletrodomesticos \(Mondial\)) Tj
-0 -15 Td
-(- Praticas sustentaveis \(Eletros\)) Tj
-0 -15 Td
-(- eletrodomesticos para casa \(Arno / Groupe SEB\)) Tj
+(- Engarrafador Moderno \(Engarrafador Moderno\)) Tj
 0 -15 Td
 (- Carranca Design \(ABIHPEC\)) Tj
 0 -15 Td
@@ -370,28 +294,28 @@ BT
 0 -15 Td
 (- Desenvolvimento Sustentavel \(ABIHPEC\)) Tj
 0 -15 Td
+(- CBS e IBS para cosmeticos: o que muda na reforma tributaria \(ABIHPEC\)) Tj
+0 -15 Td
 ET
 endstream
 endobj
-11 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 10 0 R >>
+9 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 8 0 R >>
 endobj
 xref
-0 12
+0 10
 0000000000 65535 f 
 0000000009 00000 n 
 0000000058 00000 n 
-0000000134 00000 n 
-0000000204 00000 n 
-0000002865 00000 n 
-0000002991 00000 n 
-0000006263 00000 n 
-0000006389 00000 n 
-0000009993 00000 n 
-0000010119 00000 n 
-0000011852 00000 n 
+0000000127 00000 n 
+0000000197 00000 n 
+0000003069 00000 n 
+0000003195 00000 n 
+0000006687 00000 n 
+0000006813 00000 n 
+0000009705 00000 n 
 trailer
-<< /Size 12 /Root 1 0 R >>
+<< /Size 10 /Root 1 0 R >>
 startxref
-11980
+9831
 %%EOF
