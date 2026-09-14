@@ -3,13 +3,13 @@
   "dashboard_id": "dashboard2",
   "dashboard_name": "Dashboard 2 - Radar Mercados de Aplicacao & Brand Owners Avient",
   "repository": "DRO26",
-  "generated_at": "2026-09-07T15:59:35.227Z",
-  "update_date": "2026-09-07",
-  "update_date_label": "07/09/2026",
+  "generated_at": "2026-09-14T16:28:33.256Z",
+  "update_date": "2026-09-14",
+  "update_date_label": "14/09/2026",
   "timezone": "America/Sao_Paulo",
   "analysis_window_days": 30,
-  "analysis_window_start": "2026-08-08",
-  "analysis_window_label": "08/08/2026 a 07/09/2026",
+  "analysis_window_start": "2026-08-15",
+  "analysis_window_label": "15/08/2026 a 14/09/2026",
   "status": "concluido com falhas por fonte",
   "executive_summary": [
     "Embalagens Plásticas: baixa movimentacao relevante nos ultimos 30 dias.",
@@ -49,6 +49,88 @@
   "secondary_items": [],
   "manual_review_items": [
     {
+      "item_id": "407f0195c9d9162b",
+      "title": "Cores vibrantes ganham espaço nas embalagens e se tornam tendência no design de perfumaria e cosméticos",
+      "source": "EmbalagemMarca",
+      "source_id": "embalagemmarca",
+      "segment": "packaging",
+      "segment_label": "Embalagens Plásticas",
+      "publication_date": null,
+      "consulted_at": "2026-09-14",
+      "company": "",
+      "brand": "",
+      "tags": [
+        "PET",
+        "monomaterial",
+        "sustentabilidade",
+        "cor_acabamento_cmf"
+      ],
+      "summary": "Os erros técnicos mais comuns na prática industrial Impressão PPWR, impressão de embalagens e reciclabilidade: uma análise da realidade Sustentabilidade Vibra Foods fomenta economia circular Design Nova embalagem de Itaipava Premium busca resgatar cultura de boteco Tendências Estudo ABRE/FGV IBRE aponta recuperação da produção de embalagens no segundo semestre de 2026 Mercados Pet Care Dreamies amplia linha de pestis",
+      "why_relevant": "Data nao identificavel; enviar para revisao manual. Indica nova embalagem, redesign ou novo material. Conecta a sustentabilidade, PCR, rPET ou circularidade. Tags: PET, monomaterial, sustentabilidade, cor_acabamento_cmf.",
+      "avient_connection": "Possivel oportunidade em materiais e resinas; cor, masterbatch, aditivos e acabamento; embalagem plastica, componentes e reciclabilidade.",
+      "relevance_score": 95,
+      "relevance_level": "alta",
+      "recommended_action": "preparar argumento tecnico",
+      "url": "https://embalagemmarca.com.br/setor-mercados/cores-vibrantes-embalagens/",
+      "origin_type": "noticia do site",
+      "from_edition": true,
+      "edition_date": "",
+      "classification_reasons": [
+        "Data nao identificavel; enviar para revisao manual.",
+        "Indica nova embalagem, redesign ou novo material.",
+        "Conecta a sustentabilidade, PCR, rPET ou circularidade.",
+        "Tem conexao com cor, acabamento, textura, CMF ou design.",
+        "Menciona material, embalagem ou peca plastica.",
+        "Fonte setorial especializada."
+      ],
+      "review_required": true,
+      "raw": {
+        "source_homepage": "https://embalagemmarca.com.br/",
+        "collected_title": "Cores vibrantes ganham espaço nas embalagens e se tornam tendência no design de perfumaria e cosméticos"
+      },
+      "additional_sources": []
+    },
+    {
+      "item_id": "717a0a5aeb11a8e8",
+      "title": "Com embalagem preta e dourada, nova Coca-Cola chega ao mercado brasileiro",
+      "source": "EmbalagemMarca",
+      "source_id": "embalagemmarca",
+      "segment": "packaging",
+      "segment_label": "Embalagens Plásticas",
+      "publication_date": null,
+      "consulted_at": "2026-09-14",
+      "company": "Coca-Cola",
+      "brand": "",
+      "tags": [
+        "PET",
+        "sustentabilidade",
+        "cor_acabamento_cmf"
+      ],
+      "summary": "EmbalagemMarca - Portal de Notícias do Setor de Embalagens | Packaging Brasil Ir para o conteúdo HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS IMPRESSÃO ROTULAGEM TENDÊNCIAS MERCADOS ALIMENTOS BEBIDAS CUIDADOS PESSOAIS HOME CARE PERFUMES PET CARE TIPOS DE EMBALAGENS AÇO ALUMÍNIO CARTONADAS ASSÉPTICAS CELULÓSICAS FLEXÍVEIS PLÁSTICOS VIDRO NOTÍCIAS VÍDEOS GCE ANUNCIE HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS ",
+      "why_relevant": "Data nao identificavel; enviar para revisao manual. Menciona empresa prioritaria. Tem conexao com cor, acabamento, textura, CMF ou design. Tags: PET, sustentabilidade, cor_acabamento_cmf.",
+      "avient_connection": "Possivel oportunidade em materiais e resinas; cor, masterbatch, aditivos e acabamento.",
+      "relevance_score": 75,
+      "relevance_level": "alta",
+      "recommended_action": "preparar argumento tecnico",
+      "url": "https://embalagemmarca.com.br/setor-mercados/preta-dourada-coca-cola/",
+      "origin_type": "noticia do site",
+      "from_edition": true,
+      "edition_date": "",
+      "classification_reasons": [
+        "Data nao identificavel; enviar para revisao manual.",
+        "Menciona empresa prioritaria.",
+        "Tem conexao com cor, acabamento, textura, CMF ou design.",
+        "Menciona material, embalagem ou peca plastica.",
+        "Fonte setorial especializada."
+      ],
+      "review_required": true,
+      "raw": {
+        "source_homepage": "https://embalagemmarca.com.br/",
+        "collected_title": "Com embalagem preta e dourada, nova Coca-Cola chega ao mercado brasileiro"
+      },
+      "additional_sources": []
+    },
+    {
       "item_id": "39299b8ade89d532",
       "title": "5 perguntas para Juliana Seidel, da Rede pela Circularidade do Plástico",
       "source": "EmbalagemMarca",
@@ -56,7 +138,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -89,46 +171,6 @@
       "additional_sources": []
     },
     {
-      "item_id": "2b88bdc45f458102",
-      "title": "Nova embalagem de Itaipava Premium busca resgatar cultura de boteco",
-      "source": "EmbalagemMarca",
-      "source_id": "embalagemmarca",
-      "segment": "packaging",
-      "segment_label": "Embalagens Plásticas",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "PET",
-        "sustentabilidade",
-        "cor_acabamento_cmf"
-      ],
-      "summary": "EmbalagemMarca - Portal de Notícias do Setor de Embalagens | Packaging Brasil Ir para o conteúdo HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS IMPRESSÃO ROTULAGEM TENDÊNCIAS MERCADOS ALIMENTOS BEBIDAS CUIDADOS PESSOAIS HOME CARE PERFUMES PET CARE TIPOS DE EMBALAGENS AÇO ALUMÍNIO CARTONADAS ASSÉPTICAS CELULÓSICAS FLEXÍVEIS PLÁSTICOS VIDRO NOTÍCIAS VÍDEOS GCE ANUNCIE HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS ",
-      "why_relevant": "Data nao identificavel; enviar para revisao manual. Indica nova embalagem, redesign ou novo material. Tem conexao com cor, acabamento, textura, CMF ou design. Tags: PET, sustentabilidade, cor_acabamento_cmf.",
-      "avient_connection": "Possivel oportunidade em materiais e resinas; cor, masterbatch, aditivos e acabamento.",
-      "relevance_score": 70,
-      "relevance_level": "alta",
-      "recommended_action": "preparar argumento tecnico",
-      "url": "https://embalagemmarca.com.br/setores/embalagem-itaipava-premium/",
-      "origin_type": "noticia do site",
-      "from_edition": true,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Indica nova embalagem, redesign ou novo material.",
-        "Tem conexao com cor, acabamento, textura, CMF ou design.",
-        "Menciona material, embalagem ou peca plastica.",
-        "Fonte setorial especializada."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://embalagemmarca.com.br/",
-        "collected_title": "Nova embalagem de Itaipava Premium busca resgatar cultura de boteco"
-      },
-      "additional_sources": []
-    },
-    {
       "item_id": "cb6b6954e97b6d2d",
       "title": "PPWR, impressão de embalagens e reciclabilidade: uma análise da realidade",
       "source": "EmbalagemMarca",
@@ -136,7 +178,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -170,35 +212,34 @@
       "additional_sources": []
     },
     {
-      "item_id": "1d90e408fe9a36cc",
-      "title": "Indústria intensifica lançamentos e registra recorde em julho",
+      "item_id": "2b88bdc45f458102",
+      "title": "Nova embalagem de Itaipava Premium busca resgatar cultura de boteco",
       "source": "EmbalagemMarca",
       "source_id": "embalagemmarca",
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
         "PET",
         "sustentabilidade",
-        "cor_acabamento_cmf",
-        "lancamento"
+        "cor_acabamento_cmf"
       ],
       "summary": "EmbalagemMarca - Portal de Notícias do Setor de Embalagens | Packaging Brasil Ir para o conteúdo HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS IMPRESSÃO ROTULAGEM TENDÊNCIAS MERCADOS ALIMENTOS BEBIDAS CUIDADOS PESSOAIS HOME CARE PERFUMES PET CARE TIPOS DE EMBALAGENS AÇO ALUMÍNIO CARTONADAS ASSÉPTICAS CELULÓSICAS FLEXÍVEIS PLÁSTICOS VIDRO NOTÍCIAS VÍDEOS GCE ANUNCIE HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS ",
-      "why_relevant": "Data nao identificavel; enviar para revisao manual. Sinaliza lancamento, nova linha ou expansao industrial. Tem conexao com cor, acabamento, textura, CMF ou design. Tags: PET, sustentabilidade, cor_acabamento_cmf, lancamento.",
+      "why_relevant": "Data nao identificavel; enviar para revisao manual. Indica nova embalagem, redesign ou novo material. Tem conexao com cor, acabamento, textura, CMF ou design. Tags: PET, sustentabilidade, cor_acabamento_cmf.",
       "avient_connection": "Possivel oportunidade em materiais e resinas; cor, masterbatch, aditivos e acabamento.",
-      "relevance_score": 65,
-      "relevance_level": "media",
+      "relevance_score": 70,
+      "relevance_level": "alta",
       "recommended_action": "preparar argumento tecnico",
-      "url": "https://embalagemmarca.com.br/industria-lancamentos-julho/",
+      "url": "https://embalagemmarca.com.br/setores/embalagem-itaipava-premium/",
       "origin_type": "noticia do site",
       "from_edition": true,
       "edition_date": "",
       "classification_reasons": [
         "Data nao identificavel; enviar para revisao manual.",
-        "Sinaliza lancamento, nova linha ou expansao industrial.",
+        "Indica nova embalagem, redesign ou novo material.",
         "Tem conexao com cor, acabamento, textura, CMF ou design.",
         "Menciona material, embalagem ou peca plastica.",
         "Fonte setorial especializada."
@@ -206,7 +247,7 @@
       "review_required": true,
       "raw": {
         "source_homepage": "https://embalagemmarca.com.br/",
-        "collected_title": "Indústria intensifica lançamentos e registra recorde em julho"
+        "collected_title": "Nova embalagem de Itaipava Premium busca resgatar cultura de boteco"
       },
       "additional_sources": []
     },
@@ -218,7 +259,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -250,29 +291,28 @@
       "additional_sources": []
     },
     {
-      "item_id": "87dee74d6666ac86",
-      "title": "Corona lança lata com abertura total da tampa",
+      "item_id": "15c6cbe3060b65de",
+      "title": "Divulgados os finalistas do Prêmio Grandes Cases de Embalagem 2026",
       "source": "EmbalagemMarca",
       "source_id": "embalagemmarca",
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
         "PET",
-        "tampa",
         "sustentabilidade",
         "cor_acabamento_cmf"
       ],
       "summary": "EmbalagemMarca - Portal de Notícias do Setor de Embalagens | Packaging Brasil Ir para o conteúdo HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS IMPRESSÃO ROTULAGEM TENDÊNCIAS MERCADOS ALIMENTOS BEBIDAS CUIDADOS PESSOAIS HOME CARE PERFUMES PET CARE TIPOS DE EMBALAGENS AÇO ALUMÍNIO CARTONADAS ASSÉPTICAS CELULÓSICAS FLEXÍVEIS PLÁSTICOS VIDRO NOTÍCIAS VÍDEOS GCE ANUNCIE HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS ",
-      "why_relevant": "Data nao identificavel; enviar para revisao manual. Tem conexao com cor, acabamento, textura, CMF ou design. Menciona material, embalagem ou peca plastica. Tags: PET, tampa, sustentabilidade, cor_acabamento_cmf.",
-      "avient_connection": "Possivel oportunidade em materiais e resinas; cor, masterbatch, aditivos e acabamento; embalagem plastica, componentes e reciclabilidade.",
+      "why_relevant": "Data nao identificavel; enviar para revisao manual. Tem conexao com cor, acabamento, textura, CMF ou design. Menciona material, embalagem ou peca plastica. Tags: PET, sustentabilidade, cor_acabamento_cmf.",
+      "avient_connection": "Possivel oportunidade em materiais e resinas; cor, masterbatch, aditivos e acabamento.",
       "relevance_score": 45,
       "relevance_level": "baixa",
       "recommended_action": "preparar argumento tecnico",
-      "url": "https://embalagemmarca.com.br/corona-abertura-total/",
+      "url": "https://embalagemmarca.com.br/finalistas-grandes-cases-de-embalagem/",
       "origin_type": "noticia do site",
       "from_edition": true,
       "edition_date": "",
@@ -285,7 +325,7 @@
       "review_required": true,
       "raw": {
         "source_homepage": "https://embalagemmarca.com.br/",
-        "collected_title": "Corona lança lata com abertura total da tampa"
+        "collected_title": "Divulgados os finalistas do Prêmio Grandes Cases de Embalagem 2026"
       },
       "additional_sources": []
     },
@@ -297,7 +337,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -329,14 +369,54 @@
       "additional_sources": []
     },
     {
-      "item_id": "dbc33be2d7e1abac",
-      "title": "DHL adota embalagem térmica com autonomia de até 195 horas",
+      "item_id": "5decc6f83323e3d5",
+      "title": "Bartender premiado de Curitiba lança drinque em garrafa de vidro",
       "source": "EmbalagemMarca",
       "source_id": "embalagemmarca",
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
+      "company": "",
+      "brand": "",
+      "tags": [
+        "PET",
+        "garrafa",
+        "sustentabilidade",
+        "cor_acabamento_cmf"
+      ],
+      "summary": "EmbalagemMarca - Portal de Notícias do Setor de Embalagens | Packaging Brasil Ir para o conteúdo HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS IMPRESSÃO ROTULAGEM TENDÊNCIAS MERCADOS ALIMENTOS BEBIDAS CUIDADOS PESSOAIS HOME CARE PERFUMES PET CARE TIPOS DE EMBALAGENS AÇO ALUMÍNIO CARTONADAS ASSÉPTICAS CELULÓSICAS FLEXÍVEIS PLÁSTICOS VIDRO NOTÍCIAS VÍDEOS GCE ANUNCIE HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS ",
+      "why_relevant": "Data nao identificavel; enviar para revisao manual. Tem conexao com cor, acabamento, textura, CMF ou design. Menciona material, embalagem ou peca plastica. Tags: PET, garrafa, sustentabilidade, cor_acabamento_cmf.",
+      "avient_connection": "Possivel oportunidade em materiais e resinas; cor, masterbatch, aditivos e acabamento; embalagem plastica, componentes e reciclabilidade.",
+      "relevance_score": 45,
+      "relevance_level": "baixa",
+      "recommended_action": "preparar argumento tecnico",
+      "url": "https://embalagemmarca.com.br/bartender-drinque-garrafa-de-vidro/",
+      "origin_type": "noticia do site",
+      "from_edition": true,
+      "edition_date": "",
+      "classification_reasons": [
+        "Data nao identificavel; enviar para revisao manual.",
+        "Tem conexao com cor, acabamento, textura, CMF ou design.",
+        "Menciona material, embalagem ou peca plastica.",
+        "Fonte setorial especializada."
+      ],
+      "review_required": true,
+      "raw": {
+        "source_homepage": "https://embalagemmarca.com.br/",
+        "collected_title": "Bartender premiado de Curitiba lança drinque em garrafa de vidro"
+      },
+      "additional_sources": []
+    },
+    {
+      "item_id": "19da54588aed97ec",
+      "title": "Nesh Recovery destaca-se no mercado de imunonutrição com embalagem em sachê",
+      "source": "EmbalagemMarca",
+      "source_id": "embalagemmarca",
+      "segment": "packaging",
+      "segment_label": "Embalagens Plásticas",
+      "publication_date": null,
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -350,7 +430,7 @@
       "relevance_score": 45,
       "relevance_level": "baixa",
       "recommended_action": "preparar argumento tecnico",
-      "url": "https://embalagemmarca.com.br/dhl-embalagem-termica/",
+      "url": "https://embalagemmarca.com.br/nesh-recovery-sache/",
       "origin_type": "noticia do site",
       "from_edition": true,
       "edition_date": "",
@@ -363,7 +443,7 @@
       "review_required": true,
       "raw": {
         "source_homepage": "https://embalagemmarca.com.br/",
-        "collected_title": "DHL adota embalagem térmica com autonomia de até 195 horas"
+        "collected_title": "Nesh Recovery destaca-se no mercado de imunonutrição com embalagem em sachê"
       },
       "additional_sources": []
     },
@@ -375,7 +455,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -407,14 +487,14 @@
       "additional_sources": []
     },
     {
-      "item_id": "00411bafc9f87792",
-      "title": "Bioart Biodermocosméticos amplia atuação em wellness",
+      "item_id": "26f8510f6583ada9",
+      "title": "Nesh Recovery destaca-se no mercado de imunonutrição com embalagem em sachê",
       "source": "EmbalagemMarca",
       "source_id": "embalagemmarca",
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -428,7 +508,7 @@
       "relevance_score": 45,
       "relevance_level": "baixa",
       "recommended_action": "preparar argumento tecnico",
-      "url": "https://embalagemmarca.com.br/setor-mercados/bioart-wellness/",
+      "url": "https://embalagemmarca.com.br/setor-mercados/nesh-recovery-sache/",
       "origin_type": "noticia do site",
       "from_edition": true,
       "edition_date": "",
@@ -441,7 +521,7 @@
       "review_required": true,
       "raw": {
         "source_homepage": "https://embalagemmarca.com.br/",
-        "collected_title": "Bioart Biodermocosméticos amplia atuação em wellness"
+        "collected_title": "Nesh Recovery destaca-se no mercado de imunonutrição com embalagem em sachê"
       },
       "additional_sources": []
     },
@@ -453,7 +533,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -487,28 +567,29 @@
       "additional_sources": []
     },
     {
-      "item_id": "b5a3bee588258f7c",
-      "title": "Knorr leva linha premium de atomatados para embalagem de vidro",
+      "item_id": "edf22104fa2e52b2",
+      "title": "Bartender premiado de Curitiba lança drinque em garrafa de vidro",
       "source": "EmbalagemMarca",
       "source_id": "embalagemmarca",
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
         "PET",
+        "garrafa",
         "sustentabilidade",
         "cor_acabamento_cmf"
       ],
       "summary": "EmbalagemMarca - Portal de Notícias do Setor de Embalagens | Packaging Brasil Ir para o conteúdo HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS IMPRESSÃO ROTULAGEM TENDÊNCIAS MERCADOS ALIMENTOS BEBIDAS CUIDADOS PESSOAIS HOME CARE PERFUMES PET CARE TIPOS DE EMBALAGENS AÇO ALUMÍNIO CARTONADAS ASSÉPTICAS CELULÓSICAS FLEXÍVEIS PLÁSTICOS VIDRO NOTÍCIAS VÍDEOS GCE ANUNCIE HOME SEÇÕES DESIGN SUSTENTABILIDADE EQUIPAMENTOS ",
-      "why_relevant": "Data nao identificavel; enviar para revisao manual. Tem conexao com cor, acabamento, textura, CMF ou design. Menciona material, embalagem ou peca plastica. Tags: PET, sustentabilidade, cor_acabamento_cmf.",
-      "avient_connection": "Possivel oportunidade em materiais e resinas; cor, masterbatch, aditivos e acabamento.",
+      "why_relevant": "Data nao identificavel; enviar para revisao manual. Tem conexao com cor, acabamento, textura, CMF ou design. Menciona material, embalagem ou peca plastica. Tags: PET, garrafa, sustentabilidade, cor_acabamento_cmf.",
+      "avient_connection": "Possivel oportunidade em materiais e resinas; cor, masterbatch, aditivos e acabamento; embalagem plastica, componentes e reciclabilidade.",
       "relevance_score": 45,
       "relevance_level": "baixa",
       "recommended_action": "preparar argumento tecnico",
-      "url": "https://embalagemmarca.com.br/tipos-de-embalagens/knorr-atomatados-vidro/",
+      "url": "https://embalagemmarca.com.br/tipos-de-embalagens/bartender-drinque/",
       "origin_type": "noticia do site",
       "from_edition": true,
       "edition_date": "",
@@ -521,7 +602,7 @@
       "review_required": true,
       "raw": {
         "source_homepage": "https://embalagemmarca.com.br/",
-        "collected_title": "Knorr leva linha premium de atomatados para embalagem de vidro"
+        "collected_title": "Bartender premiado de Curitiba lança drinque em garrafa de vidro"
       },
       "additional_sources": []
     },
@@ -533,7 +614,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -572,7 +653,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -611,7 +692,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -650,7 +731,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -679,14 +760,14 @@
       "additional_sources": []
     },
     {
-      "item_id": "1eb3f8e9f6d9af52",
-      "title": "Bebidas Por trás da embalagem, entretanto, existe uma cadeia que merece tanta atenção quanto o design. 2 de setembro de 2026 · 2 min",
+      "item_id": "115da14f7f92f4dd",
+      "title": "Beauty A embalagem deixa de ser apenas algo para ver. Do acabamento à experiência 10 de setembro de 2026 · 2 min",
       "source": "Revista Pack",
       "source_id": "revista-pack",
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -698,7 +779,7 @@
       "relevance_score": 30,
       "relevance_level": "baixa",
       "recommended_action": "preparar argumento tecnico",
-      "url": "https://pack.com.br/quando-a-embalagem-tambem-quer-fazer-parte-da-paisagem/",
+      "url": "https://pack.com.br/quando-a-embalagem-tambem-comunica-pelo-toque/",
       "origin_type": "noticia do site",
       "from_edition": true,
       "edition_date": "",
@@ -710,7 +791,7 @@
       "review_required": true,
       "raw": {
         "source_homepage": "https://www.pack.com.br/",
-        "collected_title": "Bebidas Por trás da embalagem, entretanto, existe uma cadeia que merece tanta atenção quanto o design. 2 de setembro de 2026 · 2 min"
+        "collected_title": "Beauty A embalagem deixa de ser apenas algo para ver. Do acabamento à experiência 10 de setembro de 2026 · 2 min"
       },
       "additional_sources": []
     },
@@ -722,7 +803,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -758,7 +839,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -793,7 +874,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -828,7 +909,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [],
@@ -861,7 +942,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [],
@@ -894,7 +975,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -929,7 +1010,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [],
@@ -962,7 +1043,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [],
@@ -988,49 +1069,14 @@
       "additional_sources": []
     },
     {
-      "item_id": "e2c2f736eb7bee96",
-      "title": "Destaque Smurfit Westrock identifica taxas de até 97% na separação de Bag-in-Box para reciclagem 3 de setembro de 2026 · 2 min",
+      "item_id": "8a471360926bf83b",
+      "title": "Alimentos E aqui entra a embalagem Da despensa para a rotina 9 de setembro de 2026 · 2 min",
       "source": "Revista Pack",
       "source_id": "revista-pack",
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "sustentabilidade"
-      ],
-      "summary": "Home - Pack Ir para o conteúdo Uma publicação Editora Banas — desde 1994 Linkedin Instagram Search Linkedin Instagram Newsletter Anunciar Alimentos Bebidas Beauty Pharma & Saúde Indústria Varejo & E-commerce Pack Insights Revista Alimentos Bebidas Beauty Pharma & Saúde Indústria Varejo & E-commerce Pack Insights Revista Conectados com quem decide o setor Alimentos Bebidas Pharma & Saúde Beauty Indústria Varejo & E-co",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 10,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://pack.com.br/consumidores-europeus-separam-bag-in-box-para-reciclagem-aponta-estudo/",
-      "origin_type": "noticia do site",
-      "from_edition": true,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Fonte setorial especializada."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.pack.com.br/",
-        "collected_title": "Destaque Smurfit Westrock identifica taxas de até 97% na separação de Bag-in-Box para reciclagem 3 de setembro de 2026 · 2 min"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "452f7d97e09e2bc3",
-      "title": "Indústria Como o plástico da cana-de-açúcar pode reduzir a pegada de carbono 1 de setembro de 2026 · 2 min",
-      "source": "Revista Pack",
-      "source_id": "revista-pack",
-      "segment": "packaging",
-      "segment_label": "Embalagens Plásticas",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [],
@@ -1040,7 +1086,7 @@
       "relevance_score": 10,
       "relevance_level": "baixa",
       "recommended_action": "descartar",
-      "url": "https://pack.com.br/como-o-plastico-da-cana-de-acucar-pode-reduzir-a-pegada-de-carbono/",
+      "url": "https://pack.com.br/mais-que-conservacao-a-lata-acompanha-a-nova-rotina-do-consumidor/",
       "origin_type": "noticia do site",
       "from_edition": true,
       "edition_date": "",
@@ -1051,7 +1097,40 @@
       "review_required": true,
       "raw": {
         "source_homepage": "https://www.pack.com.br/",
-        "collected_title": "Indústria Como o plástico da cana-de-açúcar pode reduzir a pegada de carbono 1 de setembro de 2026 · 2 min"
+        "collected_title": "Alimentos E aqui entra a embalagem Da despensa para a rotina 9 de setembro de 2026 · 2 min"
+      },
+      "additional_sources": []
+    },
+    {
+      "item_id": "fe43192ee0fcbbc3",
+      "title": "Indústria A resistência do papelão é outro aspecto relevante para uma embalagem que acompanha o produto ao longo de diferentes etapas da cadeia. 8 de setembro de 2026 · 2 min",
+      "source": "Revista Pack",
+      "source_id": "revista-pack",
+      "segment": "packaging",
+      "segment_label": "Embalagens Plásticas",
+      "publication_date": null,
+      "consulted_at": "2026-09-14",
+      "company": "",
+      "brand": "",
+      "tags": [],
+      "summary": "Home - Pack Ir para o conteúdo Uma publicação Editora Banas — desde 1994 Linkedin Instagram Search Linkedin Instagram Newsletter Anunciar Alimentos Bebidas Beauty Pharma & Saúde Indústria Varejo & E-commerce Pack Insights Revista Alimentos Bebidas Beauty Pharma & Saúde Indústria Varejo & E-commerce Pack Insights Revista Conectados com quem decide o setor Alimentos Bebidas Pharma & Saúde Beauty Indústria Varejo & E-co",
+      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
+      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
+      "relevance_score": 10,
+      "relevance_level": "baixa",
+      "recommended_action": "descartar",
+      "url": "https://pack.com.br/trombini-desenvolve-embalagem-de-papelao-para-a-cadeia-do-alho-em-minas-gerais/",
+      "origin_type": "noticia do site",
+      "from_edition": true,
+      "edition_date": "",
+      "classification_reasons": [
+        "Data nao identificavel; enviar para revisao manual.",
+        "Fonte setorial especializada."
+      ],
+      "review_required": true,
+      "raw": {
+        "source_homepage": "https://www.pack.com.br/",
+        "collected_title": "Indústria A resistência do papelão é outro aspecto relevante para uma embalagem que acompanha o produto ao longo de diferentes etapas da cadeia. 8 de setembro de 2026 · 2 min"
       },
       "additional_sources": []
     },
@@ -1063,7 +1142,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [],
@@ -1096,7 +1175,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Consul",
       "brand": "",
       "tags": [],
@@ -1124,38 +1203,6 @@
       "additional_sources": []
     },
     {
-      "item_id": "fc1f357c796513eb",
-      "title": "Clube da Embalagem",
-      "source": "Instituto de Embalagens",
-      "source_id": "instituto-embalagens",
-      "segment": "packaging",
-      "segment_label": "Embalagens Plásticas",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [],
-      "summary": "Nossa dedicação ao Ensino e Pesquisa se materializa em Cursos Especializados, Eventos Inovadores e Livros de Referência, todos projetados para enriquecer seus conhecimentos e habilidades em embalagens.",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 0,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://clubedaembalagem.com.br/",
-      "origin_type": "noticia do site",
-      "from_edition": true,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://institutodeembalagens.com.br/",
-        "collected_title": "Clube da Embalagem"
-      },
-      "additional_sources": []
-    },
-    {
       "item_id": "24aa2defb1855406",
       "title": "ESTRATÉGIA, EXECUÇÃO E PESSOAS: O TRIÂNGULO DA PERFORMANCE SUSTENTÁVEL",
       "source": "Embanews",
@@ -1163,7 +1210,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [],
@@ -1197,7 +1244,7 @@
       "segment": "packaging",
       "segment_label": "Embalagens Plásticas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [],
@@ -1224,14 +1271,48 @@
       "additional_sources": []
     },
     {
-      "item_id": "cda0f86db2ccdf30",
-      "title": "Vinícola Guaspari encerra Vindima com lançamento de chá desenvolvido a partir de uvas Syrah",
+      "item_id": "15ca70013ede8335",
+      "title": "Indústria Para o setor de embalagens, o cenário indica uma demanda sustentada tanto pela recuperação da atividade industrial 6 de agosto de 2026 · 2 min",
+      "source": "Revista Pack",
+      "source_id": "revista-pack",
+      "segment": "packaging",
+      "segment_label": "Embalagens Plásticas",
+      "publication_date": null,
+      "consulted_at": "2026-09-14",
+      "company": "",
+      "brand": "",
+      "tags": [],
+      "summary": "Home - Pack Ir para o conteúdo Uma publicação Editora Banas — desde 1994 Linkedin Instagram Search Linkedin Instagram Newsletter Anunciar Alimentos Bebidas Beauty Pharma & Saúde Indústria Varejo & E-commerce Pack Insights Revista Alimentos Bebidas Beauty Pharma & Saúde Indústria Varejo & E-commerce Pack Insights Revista Conectados com quem decide o setor Alimentos Bebidas Pharma & Saúde Beauty Indústria Varejo & E-co",
+      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
+      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
+      "relevance_score": -30,
+      "relevance_level": "baixa",
+      "recommended_action": "descartar",
+      "url": "https://pack.com.br/papelao-ondulado-registra-melhor-mes-de-junho-da-serie-historica-e-confirma-ritmo-de-crescimento-da-industria/",
+      "origin_type": "noticia do site",
+      "from_edition": true,
+      "edition_date": "",
+      "classification_reasons": [
+        "Data nao identificavel; enviar para revisao manual.",
+        "Fonte setorial especializada.",
+        "Sem conexao clara com produto, embalagem, material, design ou oportunidade."
+      ],
+      "review_required": true,
+      "raw": {
+        "source_homepage": "https://www.pack.com.br/",
+        "collected_title": "Indústria Para o setor de embalagens, o cenário indica uma demanda sustentada tanto pela recuperação da atividade industrial 6 de agosto de 2026 · 2 min"
+      },
+      "additional_sources": []
+    },
+    {
+      "item_id": "41dbb6ca2b16d1d3",
+      "title": "Matéria Principal Vinícola Guaspari encerra Vindima com lançamento de chá desenvolvido a partir de uvas Syrah",
       "source": "Engarrafador Moderno",
       "source_id": "engarrafador-moderno",
       "segment": "beverages",
       "segment_label": "Bebidas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Coca-Cola",
       "brand": "",
       "tags": [
@@ -1239,7 +1320,7 @@
         "sustentabilidade",
         "lancamento"
       ],
-      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Coca-Cola reforça conexão com a música e leva programação",
+      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Solar Coca-Cola lança 2ª Edição de Programa de Trainee Ma",
       "why_relevant": "Data nao identificavel; enviar para revisao manual. Menciona empresa prioritaria. Sinaliza lancamento, nova linha ou expansao industrial. Tags: garrafa, sustentabilidade, lancamento.",
       "avient_connection": "Possivel oportunidade em embalagem plastica, componentes e reciclabilidade.",
       "relevance_score": 75,
@@ -1259,7 +1340,7 @@
       "review_required": true,
       "raw": {
         "source_homepage": "https://engarrafadormoderno.com.br/",
-        "collected_title": "Vinícola Guaspari encerra Vindima com lançamento de chá desenvolvido a partir de uvas Syrah"
+        "collected_title": "Matéria Principal Vinícola Guaspari encerra Vindima com lançamento de chá desenvolvido a partir de uvas Syrah"
       },
       "additional_sources": []
     },
@@ -1271,7 +1352,7 @@
       "segment": "beverages",
       "segment_label": "Bebidas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Coca-Cola",
       "brand": "",
       "tags": [
@@ -1279,7 +1360,7 @@
         "sustentabilidade",
         "cor_acabamento_cmf"
       ],
-      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Coca-Cola reforça conexão com a música e leva programação",
+      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Solar Coca-Cola lança 2ª Edição de Programa de Trainee Ma",
       "why_relevant": "Data nao identificavel; enviar para revisao manual. Menciona empresa prioritaria. Tem conexao com cor, acabamento, textura, CMF ou design. Tags: garrafa, sustentabilidade, cor_acabamento_cmf.",
       "avient_connection": "Possivel oportunidade em cor, masterbatch, aditivos e acabamento; embalagem plastica, componentes e reciclabilidade.",
       "relevance_score": 75,
@@ -1311,14 +1392,14 @@
       "segment": "beverages",
       "segment_label": "Bebidas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Coca-Cola",
       "brand": "",
       "tags": [
         "garrafa",
         "sustentabilidade"
       ],
-      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Coca-Cola reforça conexão com a música e leva programação",
+      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Solar Coca-Cola lança 2ª Edição de Programa de Trainee Ma",
       "why_relevant": "Data nao identificavel; enviar para revisao manual. Menciona empresa prioritaria. Menciona material, embalagem ou peca plastica. Tags: garrafa, sustentabilidade.",
       "avient_connection": "Possivel oportunidade em embalagem plastica, componentes e reciclabilidade.",
       "relevance_score": 55,
@@ -1349,14 +1430,14 @@
       "segment": "beverages",
       "segment_label": "Bebidas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Coca-Cola",
       "brand": "",
       "tags": [
         "garrafa",
         "sustentabilidade"
       ],
-      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Coca-Cola reforça conexão com a música e leva programação",
+      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Solar Coca-Cola lança 2ª Edição de Programa de Trainee Ma",
       "why_relevant": "Data nao identificavel; enviar para revisao manual. Menciona empresa prioritaria. Menciona material, embalagem ou peca plastica. Tags: garrafa, sustentabilidade.",
       "avient_connection": "Possivel oportunidade em embalagem plastica, componentes e reciclabilidade.",
       "relevance_score": 55,
@@ -1387,14 +1468,14 @@
       "segment": "beverages",
       "segment_label": "Bebidas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Coca-Cola",
       "brand": "",
       "tags": [
         "garrafa",
         "sustentabilidade"
       ],
-      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Coca-Cola reforça conexão com a música e leva programação",
+      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Solar Coca-Cola lança 2ª Edição de Programa de Trainee Ma",
       "why_relevant": "Data nao identificavel; enviar para revisao manual. Menciona empresa prioritaria. Menciona material, embalagem ou peca plastica. Tags: garrafa, sustentabilidade.",
       "avient_connection": "Possivel oportunidade em embalagem plastica, componentes e reciclabilidade.",
       "relevance_score": 55,
@@ -1425,7 +1506,7 @@
       "segment": "beverages",
       "segment_label": "Bebidas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Coca-Cola",
       "brand": "",
       "tags": [
@@ -1433,7 +1514,7 @@
         "garrafa",
         "sustentabilidade"
       ],
-      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Coca-Cola reforça conexão com a música e leva programação",
+      "summary": "Engarrafador Moderno • A plataforma de conteúdo da cadeia de valor de bebidas Menu A plataforma de conteúdo da cadeia de valor de bebidas Busca Mercado Tecnologia Processos Embalagens Ingredientes Sustentabilidade Agenda Vídeos Edições Beverage Day Notícias Gestão Craft beer Empresas Mundo Agronegócios Pessoas Marketing Fale Conosco Assinatura Anúncios (Login) Solar Coca-Cola lança 2ª Edição de Programa de Trainee Ma",
       "why_relevant": "Data nao identificavel; enviar para revisao manual. Menciona empresa prioritaria. Menciona material, embalagem ou peca plastica. Tags: PET, garrafa, sustentabilidade.",
       "avient_connection": "Possivel oportunidade em materiais e resinas; embalagem plastica, componentes e reciclabilidade.",
       "relevance_score": 55,
@@ -1464,13 +1545,13 @@
       "segment": "beverages",
       "segment_label": "Bebidas",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Coca-Cola Brasil",
       "brand": "",
       "tags": [
         "sustentabilidade"
       ],
-      "summary": "Coca-Cola Brasil: Sabor, Música e Inovação em um só Lugar <a href=\\\"#maincontent\\\">Skip to content</a></p>\\r\\n\"}}\" id=\"text-b1f54b0033\" class=\"cmp-text\"> Skip to content \\r\\n<li><a href=\\\"/content/onexp/br/pt/brands.html\\\">Marcas</a><a href=\\\"/content/onexp/br/pt/brands.html\\\"></a></li>\\r\\n<li><a href=\\\"#\\\">Descobrir</a><ul>\\r\\n<li><a href=\\\"/content/onexp/br/pt/offerings/copa-do-mundo-da-fifa-2026.html\\\">Copa do Mun",
+      "summary": "Coca-Cola Brasil: Sabor, Música e Inovação em um só Lugar <a href=\\\"#maincontent\\\">Skip to content</a></p>\\r\\n\"}}\" id=\"text-b1f54b0033\" class=\"cmp-text\"> Skip to content \\r\\n<li><a href=\\\"/content/onexp/br/pt/brands.html\\\">Marcas</a><a href=\\\"/content/onexp/br/pt/brands.html\\\"></a></li>\\r\\n<li><a href=\\\"#\\\">Descobrir</a><ul>\\r\\n<li><a href=\\\"/content/onexp/br/pt/offerings/fanta-halloween-26.html\\\">Fanta Halloween</a>",
       "why_relevant": "Data nao identificavel; enviar para revisao manual. Menciona empresa prioritaria. Fonte oficial de empresa ou associacao. Tags: sustentabilidade.",
       "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
       "relevance_score": 45,
@@ -1493,568 +1574,6 @@
       "additional_sources": []
     },
     {
-      "item_id": "600a9661c6c0d50f",
-      "title": "Sustentabilidade",
-      "source": "Heineken Brasil",
-      "source_id": "heineken-brasil",
-      "segment": "beverages",
-      "segment_label": "Bebidas",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "Heineken Brasil",
-      "brand": "",
-      "tags": [
-        "sustentabilidade"
-      ],
-      "summary": "Consulte nossas vagas exclusivamente pelo portal oficial: careers.theheinekencompany.com/Brazil/search Em caso de dúvida ou suspeita, entre em contato: atendimento.financeiro@heineken.com.br Ok _[fill]:not([fill='none'])]:aria-disabled:!fill-current transition-all duration-300 core-icon-contrast-neutral-medium-container core-icon-contrast-neutral-medium-content\" > Voltar ao topo _[fill]:not([fill='none'])]:aria-disab",
-      "why_relevant": "Data nao identificavel; enviar para revisao manual. Menciona empresa prioritaria. Fonte oficial de empresa ou associacao. Tags: sustentabilidade.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 45,
-      "relevance_level": "baixa",
-      "recommended_action": "monitorar",
-      "url": "https://www.heinekenbrasil.com.br/sustentabilidade",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Menciona empresa prioritaria.",
-        "Fonte oficial de empresa ou associacao."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.heinekenbrasil.com.br/",
-        "collected_title": "Sustentabilidade"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "8d8e8abe0e9f3bd3",
-      "title": "Sustentabilidade",
-      "source": "ABIA",
-      "source_id": "abia",
-      "segment": "beverages",
-      "segment_label": "Bebidas",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "sustentabilidade"
-      ],
-      "summary": "Início - ABIA Início Sobre A ABIA Associadas Conselho Diretor Presidência Comitês e GT’s’ Instituto ABIA de Meio Ambiente Setor Principais números Notícias Release Na Mídia Eventos Sustentabilidade Projetos Olho na Lupa Processamento de Alimentos para Curiosos Tem comida, tem valor Tem comida, tem verdade Publicações Associe-se Contato Início Sobre A ABIA Associadas Conselho Diretor Presidência Comitês e GT’s’ Instit",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 25,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://abia.org.br/a-abia/sustentabilidade/",
-      "origin_type": "noticia do site",
-      "from_edition": true,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Fonte oficial de empresa ou associacao.",
-        "Fonte setorial especializada."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.abia.org.br/",
-        "collected_title": "Sustentabilidade"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "1eced0693053c055",
-      "title": "SUSTENTABILIDADE",
-      "source": "Fispal Tecnologia",
-      "source_id": "fispal-tecnologia-bebidas",
-      "segment": "beverages",
-      "segment_label": "Bebidas",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "sustentabilidade"
-      ],
-      "summary": "NEWSLETTER PLATAFORMA DIGITAL VIAGEM E HOSPEDAGEM pt English Español Página Inicial VISITAR IMPRENSA Congresso QUERO EXPOR QUEM SOMOS Sobre a marca Página Inicial VISITAR INGRESSO LISTA DE EXPOSITORES DÚVIDAS FREQUENTES Tecnocarne IMPRENSA Congresso Congresso Fispal Tec FISPAL WOMEN CONNECTED Palestrantes QUERO EXPOR Quero Expor CONCIERGE Soluções Digitais LEAD INSIGHTS QUEM SOMOS INFORMA MARKETS SUSTENTABILIDADE PAR",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 10,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://www.fispaltecnologia.com.br/quem-somos/sustentabilidade/",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Fonte setorial especializada."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.fispaltecnologia.com.br/",
-        "collected_title": "SUSTENTABILIDADE"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "72fe489309fd58ba",
-      "title": "Whirlpool® Dishwashers Most inclusive lower rack design on the market Shop Now",
-      "source": "Whirlpool / Brastemp / Consul",
-      "source_id": "whirlpool-brastemp-consul",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "Whirlpool / Brastemp / Consul",
-      "brand": "",
-      "tags": [
-        "cor_acabamento_cmf"
-      ],
-      "summary": "Home, Kitchen & Laundry Appliances & Products | Whirlpool Skip to main content Offer Ends 2026-07-08T23:59:00.000-04:00 Labor Day Sale through 9/16 - Plus Free Install & Haul Away on Major Appliances $898+ ‡ See Details Shop Now Shop Now Enable Accessibility ‡ Ends September 16, 2026 at 11:59 PM EST.",
-      "why_relevant": "Data nao identificavel; enviar para revisao manual. Menciona empresa prioritaria. Tem conexao com cor, acabamento, textura, CMF ou design. Tags: cor_acabamento_cmf.",
-      "avient_connection": "Possivel oportunidade em cor, masterbatch, aditivos e acabamento.",
-      "relevance_score": 65,
-      "relevance_level": "media",
-      "recommended_action": "preparar argumento tecnico",
-      "url": "https://www.whirlpool.com/accessories/kitchen-accessories/dishwasher/p.spin-and-load-dishwasher-rack.w11758840.html",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Menciona empresa prioritaria.",
-        "Tem conexao com cor, acabamento, textura, CMF ou design.",
-        "Fonte oficial de empresa ou associacao."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.whirlpool.com/",
-        "collected_title": "Whirlpool® Dishwashers Most inclusive lower rack design on the market Shop Now"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "b6064d5d67f9c18d",
-      "title": "Do conforto ao silêncio: os movimentos que estão redesenhando o design",
-      "source": "Eletrolar News / Portal Eletrolar",
-      "source_id": "eletrolar-news",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "cor_acabamento_cmf"
-      ],
-      "summary": "Home - Eletrolar News Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Montagem Eletrolar News Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Montagem Eletrol",
-      "why_relevant": "Data nao identificavel; enviar para revisao manual. Tem conexao com cor, acabamento, textura, CMF ou design. Fonte setorial especializada. Tags: cor_acabamento_cmf.",
-      "avient_connection": "Possivel oportunidade em cor, masterbatch, aditivos e acabamento.",
-      "relevance_score": 30,
-      "relevance_level": "baixa",
-      "recommended_action": "preparar argumento tecnico",
-      "url": "https://eletrolarnews.com.br/do-conforto-ao-silencio-os-movimentos-que-estao-redesenhando-o-design/",
-      "origin_type": "noticia do site",
-      "from_edition": true,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Tem conexao com cor, acabamento, textura, CMF ou design.",
-        "Fonte setorial especializada."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.eletrolarnews.com.br/",
-        "collected_title": "Do conforto ao silêncio: os movimentos que estão redesenhando o design"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "24313f4b6f55ed54",
-      "title": "Home decor Design e estilo de vida para o mercado latino-americano.",
-      "source": "Eletrolar Show",
-      "source_id": "eletrolar-show",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "cor_acabamento_cmf"
-      ],
-      "summary": "Eletrolar Show Ir para o conteúdo Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Montagem Eletrolar News Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Mont",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Possivel oportunidade em cor, masterbatch, aditivos e acabamento.",
-      "relevance_score": 20,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://interiorlifestyle.com.br/",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Tem conexao com cor, acabamento, textura, CMF ou design."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://eletrolarshow.com.br/",
-        "collected_title": "Home decor Design e estilo de vida para o mercado latino-americano."
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "838201db145613dd",
-      "title": "Lançamentos Encontre em primeira mão as novidades que acabaram de chegar à nossa loja.",
-      "source": "Arno / Groupe SEB",
-      "source_id": "arno-groupe-seb",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "Arno / Groupe SEB",
-      "brand": "",
-      "tags": [
-        "lancamento"
-      ],
-      "summary": "Loja Oficial Arno | Eletroportáteis, Panelas, Utensílios e muito mais para o seu lar Minha conta Até 6x sem juros Condições exclusivas de pagamento com parcela mínima de R$ 50 Super descontos Produtos com preços imperdíveis para você na nossa seleção de Ofertas Desconto de 5% no PIX Ganhe descontos exclusivos em suas compras com pagamento via Pix Entrega para todo o Brasil Frete Grátis para Sul e Sudeste em compras a",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 15,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://www.arno.com.br/vitrine/novidades-das-nossas-marcas",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Menciona empresa prioritaria.",
-        "Sinaliza lancamento, nova linha ou expansao industrial.",
-        "Fonte oficial de empresa ou associacao.",
-        "Termos de exclusao comercial ou varejo sem sinal tecnico."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.arno.com.br/",
-        "collected_title": "Lançamentos Encontre em primeira mão as novidades que acabaram de chegar à nossa loja."
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "c84796167bc5ba43",
-      "title": "Sustentabilidade",
-      "source": "Eletrolar News / Portal Eletrolar",
-      "source_id": "eletrolar-news",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "sustentabilidade"
-      ],
-      "summary": "Home - Eletrolar News Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Montagem Eletrolar News Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Montagem Eletrol",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 10,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://eletrolarnews.com.br/category/sustentabilidade/",
-      "origin_type": "noticia do site",
-      "from_edition": true,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Fonte setorial especializada."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.eletrolarnews.com.br/",
-        "collected_title": "Sustentabilidade"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "591d7ec320462851",
-      "title": "Logística reversa: o desafio da reciclagem no Brasil (Live Show Eletrolar 2026)",
-      "source": "Eletrolar News / Portal Eletrolar",
-      "source_id": "eletrolar-news",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "sustentabilidade"
-      ],
-      "summary": "Home - Eletrolar News Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Montagem Eletrolar News Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Montagem Eletrol",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 10,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://www.youtube.com/watch?v=mdkrm4gSVhE",
-      "origin_type": "noticia do site",
-      "from_edition": true,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Fonte setorial especializada."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.eletrolarnews.com.br/",
-        "collected_title": "Logística reversa: o desafio da reciclagem no Brasil (Live Show Eletrolar 2026)"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "e877bde094656610",
-      "title": "Eletrodomésticos",
-      "source": "Mondial",
-      "source_id": "mondial",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "Mondial",
-      "brand": "",
-      "tags": [],
-      "summary": "Entrar Todos os departamentos Explore por mundos Cozinha Sala Áudio Ver tudo Eletroportáteis Air fryer Air fryer oven Batedeira Ver tudo Climatização Ventilador de coluna Ventilador de mesa Ventilador de parede Ver tudo Beleza Linha By Juliette Aparador de pelos Balança Ver tudo Ferramentas Furadeira de impacto Lixeira orbital Micro retífica Ver tudo Áudio Caixa amplificadora Speaker Torre de som Eletrodomésticos Coi",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 5,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://www.mondial.com.br/eletrodomesticos",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Menciona empresa prioritaria.",
-        "Fonte oficial de empresa ou associacao.",
-        "Sem conexao clara com produto, embalagem, material, design ou oportunidade."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.mondial.com.br/",
-        "collected_title": "Eletrodomésticos"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "bb91c79e10da99f0",
-      "title": "Logística reversa: o desafio da reciclagem no Brasil",
-      "source": "Eletrolar Show",
-      "source_id": "eletrolar-show",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "sustentabilidade"
-      ],
-      "summary": "Eletrolar Show Ir para o conteúdo Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Montagem Eletrolar News Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Mont",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 0,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://eletrolarshow.com.br/logistica-reversa-o-desafio-da-reciclagem-no-brasil/",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://eletrolarshow.com.br/",
-        "collected_title": "Logística reversa: o desafio da reciclagem no Brasil"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "f04e22a4271abcc7",
-      "title": "Práticas sustentáveis",
-      "source": "Eletros",
-      "source_id": "eletros",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [],
-      "summary": "Ver tudo Setor de eletroeletrônicos tem alta de 11% O setor eletroeletrônico registrou crescimento de 11% entre janeiro e maio de 2026, segundo a Eletros… Ver notícia Inmetro orienta setor eletroeletrônico sobre migração para o Novo Processo de Importação Segundo ele, o modelo contribui para um ambiente de negócios mais seguro, alinhado à legalidade e à competitividade… Ver notícia Brasil se torna o segundo maior fab",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": -15,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://eletros.org.br/praticas-sustentaveis/",
-      "origin_type": "noticia do site",
-      "from_edition": true,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Fonte oficial de empresa ou associacao.",
-        "Fonte setorial especializada.",
-        "Sem conexao clara com produto, embalagem, material, design ou oportunidade."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://eletros.org.br/",
-        "collected_title": "Práticas sustentáveis"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "f71e17de918bdb72",
-      "title": "Bens de consumo O maior evento B2B de eletroeletrônicos e eletrodomésticos da América Latina.",
-      "source": "Eletrolar Show",
-      "source_id": "eletrolar-show",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [],
-      "summary": "Eletrolar Show Ir para o conteúdo Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Montagem Eletrolar News Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Mont",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": -40,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "http://eletrolarshow.com.br/",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Sem conexao clara com produto, embalagem, material, design ou oportunidade."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://eletrolarshow.com.br/",
-        "collected_title": "Bens de consumo O maior evento B2B de eletroeletrônicos e eletrodomésticos da América Latina."
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "b375db26321b01ba",
-      "title": "Mobilidade A próxima era da mobilidade elétrica e sustentável.",
-      "source": "Eletrolar Show",
-      "source_id": "eletrolar-show",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [],
-      "summary": "Eletrolar Show Ir para o conteúdo Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Montagem Eletrolar News Grupo Eletrolar Eletrolar Show Electronics Home México Electronics Home Argentina Interior Lifestyle South America Future Mobility Aircon Expo Ferretera Global Supplier Azul Play Mont",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": -40,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://futuremobility.com.br/",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Sem conexao clara com produto, embalagem, material, design ou oportunidade."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://eletrolarshow.com.br/",
-        "collected_title": "Mobilidade A próxima era da mobilidade elétrica e sustentável."
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "524cf72ce587679e",
-      "title": "Fornecedores Fornecedores globais com produtos inovadores e competitivos.",
-      "source": "Eletrolar Show",
-      "source_id": "eletrolar-show",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [],
-      "summary": "Conecte-se com os compradores que movem o mercado de bens de consumo duráveis.",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": -40,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://globalsupplier.com/pt/",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Sem conexao clara com produto, embalagem, material, design ou oportunidade."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://eletrolarshow.com.br/",
-        "collected_title": "Fornecedores Fornecedores globais com produtos inovadores e competitivos."
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "a1e47149b4d4cc69",
-      "title": "eletrodomésticos para casa",
-      "source": "Arno / Groupe SEB",
-      "source_id": "arno-groupe-seb",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "Arno / Groupe SEB",
-      "brand": "",
-      "tags": [],
-      "summary": "Loja Oficial Arno | Eletroportáteis, Panelas, Utensílios e muito mais para o seu lar Minha conta Até 6x sem juros Condições exclusivas de pagamento com parcela mínima de R$ 50 Super descontos Produtos com preços imperdíveis para você na nossa seleção de Ofertas Desconto de 5% no PIX Ganhe descontos exclusivos em suas compras com pagamento via Pix Entrega para todo o Brasil Frete Grátis para Sul e Sudeste em compras a",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": -45,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://www.arno.com.br/arno/para-casa/",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Menciona empresa prioritaria.",
-        "Fonte oficial de empresa ou associacao.",
-        "Termos de exclusao comercial ou varejo sem sinal tecnico.",
-        "Sem conexao clara com produto, embalagem, material, design ou oportunidade."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.arno.com.br/",
-        "collected_title": "eletrodomésticos para casa"
-      },
-      "additional_sources": []
-    },
-    {
       "item_id": "0bf5ddb5004cc3b9",
       "title": "Carranca Design",
       "source": "ABIHPEC",
@@ -2062,7 +1581,7 @@
       "segment": "consumer_goods",
       "segment_label": "Bens de Consumo",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -2099,7 +1618,7 @@
       "segment": "consumer_goods",
       "segment_label": "Bens de Consumo",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Unilever Brasil / Unilever Global",
       "brand": "",
       "tags": [
@@ -2135,7 +1654,7 @@
       "segment": "consumer_goods",
       "segment_label": "Bens de Consumo",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Unilever Brasil / Unilever Global",
       "brand": "",
       "tags": [
@@ -2171,7 +1690,7 @@
       "segment": "consumer_goods",
       "segment_label": "Bens de Consumo",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "Unilever Brasil / Unilever Global",
       "brand": "",
       "tags": [
@@ -2207,7 +1726,7 @@
       "segment": "consumer_goods",
       "segment_label": "Bens de Consumo",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "P&G Brasil / P&G Global",
       "brand": "",
       "tags": [
@@ -2236,42 +1755,6 @@
       "additional_sources": []
     },
     {
-      "item_id": "28976a40bf85161a",
-      "title": "Asics amplia programa de relacionamento com lançamento de aplicativo no Brasil",
-      "source": "Mercado & Consumo",
-      "source_id": "mercado-consumo-consumer",
-      "segment": "consumer_goods",
-      "segment_label": "Bens de Consumo",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "lancamento"
-      ],
-      "summary": "Notícias sobre varejo e consumo EDITORIAS VAREJO ECONOMIA RETAIL MEDIA SERVIÇOS SHOPPING CENTERS M&C CAPITAL M&C FRANCHISING MERCADO&TECH TECNOLOGIA LOGÍSTICA E-COMMERCE ARTIGOS MERCADO&TECH MERCADO&FOOD ABASTECIMENTO FOODSERVICE INDÚSTRIA ARTIGOS MERCADO&FOOD ESPECIAIS WEBCASTS E ENTREVISTAS BANDNEWS FM WEB STORIES REVISTA M&C BORA VAREJAR OPINIÃO COLUNISTAS ARTIGOS EVENTOS NRF RETAIL’S BIG SHOW NRA SHOW LATAM RETAI",
-      "why_relevant": "Data nao identificavel; enviar para revisao manual. Sinaliza lancamento, nova linha ou expansao industrial. Fonte setorial especializada. Tags: lancamento.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 30,
-      "relevance_level": "baixa",
-      "recommended_action": "monitorar",
-      "url": "https://mercadoeconsumo.com.br/07/09/2026/noticias-varejo/asics-amplia-oneasics-com-lancamento-de-aplicativo-no-brasil/",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Sinaliza lancamento, nova linha ou expansao industrial.",
-        "Fonte setorial especializada."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://mercadoeconsumo.com.br/",
-        "collected_title": "Asics amplia programa de relacionamento com lançamento de aplicativo no Brasil"
-      },
-      "additional_sources": []
-    },
-    {
       "item_id": "3bc48524e7468262",
       "title": "Com campanha que destaca o impacto humano por trás da reciclagem, Programa Mãos Pro Futuro celebra 20 anos",
       "source": "ABIHPEC",
@@ -2279,7 +1762,7 @@
       "segment": "consumer_goods",
       "segment_label": "Bens de Consumo",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [
@@ -2308,76 +1791,6 @@
       "additional_sources": []
     },
     {
-      "item_id": "1a9c7f8012b8d78a",
-      "title": "Claudia Cezaro Comunicação interna: da execução à mesa de decisão Sustentabilidade da evolução da área como motor de resultados ainda esbarra no conflito de expectativas",
-      "source": "Meio & Mensagem",
-      "source_id": "meio-mensagem-consumer",
-      "segment": "consumer_goods",
-      "segment_label": "Bens de Consumo",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [
-        "sustentabilidade"
-      ],
-      "summary": "Meio e Mensagem - Marketing, Mídia e Comunicação Menu Principal Login Seções Notícias Comunicação Marketing Mídia Gente Opinião ProXXIma Women To Watch Plataformas Podcasts Vídeos Webinars Banca Digital Portfólio de Agências Reports Coberturas Cannes Lions SXSW MWC NRF WW Summit Evento ProXXIma Maximídia Effie Awards Caboré Especiais Editoriais 100 Dias de Inovação Marketing na Olimpíada Drops Agências & Anunciantes ",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 10,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://www.meioemensagem.com.br/opiniao/comunicacao-interna-da-execucao-a-mesa-de-decisao",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Fonte setorial especializada."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.meioemensagem.com.br/",
-        "collected_title": "Claudia Cezaro Comunicação interna: da execução à mesa de decisão Sustentabilidade da evolução da área como motor de resultados ainda esbarra no conflito de expectativas"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "69157216def77ee5",
-      "title": "Grupo Petrópolis cria página própria no iFood para reunir marcas de cerveja",
-      "source": "Mercado & Consumo",
-      "source_id": "mercado-consumo-consumer",
-      "segment": "consumer_goods",
-      "segment_label": "Bens de Consumo",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "Grupo Petropolis",
-      "brand": "",
-      "tags": [],
-      "summary": "Notícias sobre varejo e consumo EDITORIAS VAREJO ECONOMIA RETAIL MEDIA SERVIÇOS SHOPPING CENTERS M&C CAPITAL M&C FRANCHISING MERCADO&TECH TECNOLOGIA LOGÍSTICA E-COMMERCE ARTIGOS MERCADO&TECH MERCADO&FOOD ABASTECIMENTO FOODSERVICE INDÚSTRIA ARTIGOS MERCADO&FOOD ESPECIAIS WEBCASTS E ENTREVISTAS BANDNEWS FM WEB STORIES REVISTA M&C BORA VAREJAR OPINIÃO COLUNISTAS ARTIGOS EVENTOS NRF RETAIL’S BIG SHOW NRA SHOW LATAM RETAI",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": 0,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://mercadoeconsumo.com.br/07/09/2026/noticias-varejo/grupo-petropolis-cria-pagina-propria-no-ifood-para-reunir-marcas-de-cerveja/",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Menciona empresa prioritaria.",
-        "Fonte setorial especializada.",
-        "Sem conexao clara com produto, embalagem, material, design ou oportunidade."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://mercadoeconsumo.com.br/",
-        "collected_title": "Grupo Petrópolis cria página própria no iFood para reunir marcas de cerveja"
-      },
-      "additional_sources": []
-    },
-    {
       "item_id": "9de7d8aeb2a34de8",
       "title": "Desenvolvimento Sustentável",
       "source": "ABIHPEC",
@@ -2385,7 +1798,7 @@
       "segment": "consumer_goods",
       "segment_label": "Bens de Consumo",
       "publication_date": null,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "company": "",
       "brand": "",
       "tags": [],
@@ -2411,78 +1824,9 @@
         "collected_title": "Desenvolvimento Sustentável"
       },
       "additional_sources": []
-    },
-    {
-      "item_id": "2433679af19fcc52",
-      "title": "CBS e IBS para cosméticos: o que muda na reforma tributária",
-      "source": "ABIHPEC",
-      "source_id": "abihpec",
-      "segment": "consumer_goods",
-      "segment_label": "Bens de Consumo",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [],
-      "summary": "ABIHPEC – Associação Brasileira da Indústria de Higiene Pessoal, Perfumaria e Cosméticos Institucional Área Restrita Associe-se Galeria Fale Conosco Comunicação Desenvolvimento Sustentável Inovação Comex Mercado Regulatório Tributação Trabalho Agenda Notícias Imprensa Comunicados Empresas Associadas Negócios Internacionais Instituto ABIHPEC Sipatesp Agenda Notícias Imprensa Comunicados Empresas Associadas Negócios In",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": -15,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://abihpec.org.br/cbs-ibs-empresas-cosmeticos-2026/",
-      "origin_type": "noticia do site",
-      "from_edition": true,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Fonte oficial de empresa ou associacao.",
-        "Fonte setorial especializada.",
-        "Sem conexao clara com produto, embalagem, material, design ou oportunidade."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://abihpec.org.br/",
-        "collected_title": "CBS e IBS para cosméticos: o que muda na reforma tributária"
-      },
-      "additional_sources": []
-    },
-    {
-      "item_id": "b28a6c31fbfda49f",
-      "title": "Além dos palcos: o impacto ESG nos festivais Pressão do público transforma festivais em plataformas de ESG, exigindo soluções sustentáveis em escala",
-      "source": "Meio & Mensagem",
-      "source_id": "meio-mensagem-consumer",
-      "segment": "consumer_goods",
-      "segment_label": "Bens de Consumo",
-      "publication_date": null,
-      "consulted_at": "2026-09-07",
-      "company": "",
-      "brand": "",
-      "tags": [],
-      "summary": "Meio e Mensagem - Marketing, Mídia e Comunicação Menu Principal Login Seções Notícias Comunicação Marketing Mídia Gente Opinião ProXXIma Women To Watch Plataformas Podcasts Vídeos Webinars Banca Digital Portfólio de Agências Reports Coberturas Cannes Lions SXSW MWC NRF WW Summit Evento ProXXIma Maximídia Effie Awards Caboré Especiais Editoriais 100 Dias de Inovação Marketing na Olimpíada Drops Agências & Anunciantes ",
-      "why_relevant": "Item mantido fora do dashboard visual por baixa conexao tecnica ou comercial.",
-      "avient_connection": "Conexao potencial a revisar manualmente antes de acao comercial.",
-      "relevance_score": -30,
-      "relevance_level": "baixa",
-      "recommended_action": "descartar",
-      "url": "https://www.meioemensagem.com.br/videos/alem-dos-palcos-o-impacto-esg-nos-festivais",
-      "origin_type": "noticia do site",
-      "from_edition": false,
-      "edition_date": "",
-      "classification_reasons": [
-        "Data nao identificavel; enviar para revisao manual.",
-        "Fonte setorial especializada.",
-        "Sem conexao clara com produto, embalagem, material, design ou oportunidade."
-      ],
-      "review_required": true,
-      "raw": {
-        "source_homepage": "https://www.meioemensagem.com.br/",
-        "collected_title": "Além dos palcos: o impacto ESG nos festivais Pressão do público transforma festivais em plataformas de ESG, exigindo soluções sustentáveis em escala"
-      },
-      "additional_sources": []
     }
   ],
-  "discarded_count": 82,
+  "discarded_count": 57,
   "source_statuses": [
     {
       "source_id": "abre",
@@ -2491,11 +1835,11 @@
       "segment_label": "Embalagens Plásticas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://www.abre.org.br/",
       "edition_checked": true,
-      "notes": "10 candidato(s) processado(s)."
+      "notes": "9 candidato(s) processado(s)."
     },
     {
       "source_id": "embalagemmarca",
@@ -2504,11 +1848,11 @@
       "segment_label": "Embalagens Plásticas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://embalagemmarca.com.br/",
       "edition_checked": true,
-      "notes": "19 candidato(s) processado(s)."
+      "notes": "24 candidato(s) processado(s)."
     },
     {
       "source_id": "embanews",
@@ -2517,7 +1861,7 @@
       "segment_label": "Embalagens Plásticas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://embanews.com.br/",
       "edition_checked": true,
@@ -2530,11 +1874,11 @@
       "segment_label": "Embalagens Plásticas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://www.pack.com.br/",
       "edition_checked": true,
-      "notes": "6 candidato(s) processado(s)."
+      "notes": "9 candidato(s) processado(s)."
     },
     {
       "source_id": "premio-abre",
@@ -2543,11 +1887,11 @@
       "segment_label": "Embalagens Plásticas",
       "cadence": "monthly_or_event",
       "layer": 3,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.premioabre.org.br/",
       "edition_checked": false,
-      "notes": "2 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "instituto-embalagens",
@@ -2556,11 +1900,11 @@
       "segment_label": "Embalagens Plásticas",
       "cadence": "monthly",
       "layer": 3,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://institutodeembalagens.com.br/",
       "edition_checked": true,
-      "notes": "1 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "cetea-ital",
@@ -2569,11 +1913,11 @@
       "segment_label": "Embalagens Plásticas",
       "cadence": "monthly",
       "layer": 3,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.ital.sp.gov.br/cetea/",
       "edition_checked": true,
-      "notes": "Consulta realizada, mas nenhum candidato datado e relevante foi identificado."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "fispal-tecnologia",
@@ -2582,11 +1926,11 @@
       "segment_label": "Embalagens Plásticas",
       "cadence": "monthly_or_event",
       "layer": 3,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.fispaltecnologia.com.br/",
       "edition_checked": false,
-      "notes": "1 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "abir",
@@ -2595,7 +1939,7 @@
       "segment_label": "Bebidas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sem noticia relevante",
       "homepage": "https://abir.org.br/",
       "edition_checked": true,
@@ -2608,11 +1952,11 @@
       "segment_label": "Bebidas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://www.abinam.com.br/",
       "edition_checked": true,
-      "notes": "3 candidato(s) processado(s)."
+      "notes": "4 candidato(s) processado(s)."
     },
     {
       "source_id": "engarrafador-moderno",
@@ -2621,7 +1965,7 @@
       "segment_label": "Bebidas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://engarrafadormoderno.com.br/",
       "edition_checked": true,
@@ -2634,7 +1978,7 @@
       "segment_label": "Bebidas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://www.coca-cola.com/br/pt",
       "edition_checked": false,
@@ -2647,11 +1991,11 @@
       "segment_label": "Bebidas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
+      "consulted_at": "2026-09-14",
+      "status": "falha de acesso",
       "homepage": "https://coca-colafemsa.com/",
       "edition_checked": false,
-      "notes": "Consulta realizada, mas nenhum candidato datado e relevante foi identificado."
+      "notes": "HTTP 403 em https://coca-colafemsa.com/"
     },
     {
       "source_id": "ambev",
@@ -2660,7 +2004,7 @@
       "segment_label": "Bebidas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "falha de acesso",
       "homepage": "https://www.ambev.com.br/",
       "edition_checked": false,
@@ -2673,11 +2017,11 @@
       "segment_label": "Bebidas",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://citrusbr.com/",
       "edition_checked": false,
-      "notes": "6 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "abia",
@@ -2686,11 +2030,11 @@
       "segment_label": "Bebidas",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.abia.org.br/",
       "edition_checked": true,
-      "notes": "4 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "heineken-brasil",
@@ -2699,11 +2043,11 @@
       "segment_label": "Bebidas",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.heinekenbrasil.com.br/",
       "edition_checked": false,
-      "notes": "1 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "grupo-petropolis",
@@ -2712,11 +2056,11 @@
       "segment_label": "Bebidas",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.grupopetropolis.com.br/",
       "edition_checked": false,
-      "notes": "Consulta realizada, mas nenhum candidato datado e relevante foi identificado."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "natural-one",
@@ -2725,11 +2069,11 @@
       "segment_label": "Bebidas",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://naturalone.com.br/",
       "edition_checked": false,
-      "notes": "Consulta realizada, mas nenhum candidato datado e relevante foi identificado."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "leao-matte-leao",
@@ -2738,11 +2082,11 @@
       "segment_label": "Bebidas",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.leao.com.br/",
       "edition_checked": false,
-      "notes": "1 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "zanlorenzi-campo-largo-ohtea",
@@ -2751,11 +2095,11 @@
       "segment_label": "Bebidas",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "falha de acesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.campolargo.com.br/",
       "edition_checked": false,
-      "notes": "fetch failed"
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "fispal-tecnologia-bebidas",
@@ -2764,11 +2108,11 @@
       "segment_label": "Bebidas",
       "cadence": "biweekly_or_event",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.fispaltecnologia.com.br/",
       "edition_checked": false,
-      "notes": "1 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "eletros",
@@ -2777,11 +2121,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://eletros.org.br/",
       "edition_checked": true,
-      "notes": "1 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "eletrolar-news",
@@ -2790,11 +2134,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.eletrolarnews.com.br/",
       "edition_checked": true,
-      "notes": "7 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "mondial",
@@ -2803,11 +2147,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.mondial.com.br/",
       "edition_checked": false,
-      "notes": "2 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "electrolux",
@@ -2816,11 +2160,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.electrolux.com.br/",
       "edition_checked": false,
-      "notes": "Consulta realizada, mas nenhum candidato datado e relevante foi identificado."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "whirlpool-brastemp-consul",
@@ -2829,11 +2173,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.whirlpool.com/",
       "edition_checked": false,
-      "notes": "1 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "britania-philco",
@@ -2842,11 +2186,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.britania.com.br/",
       "edition_checked": false,
-      "notes": "Consulta realizada, mas nenhum candidato datado e relevante foi identificado."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "arno-groupe-seb",
@@ -2855,11 +2199,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.arno.com.br/",
       "edition_checked": false,
-      "notes": "2 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "eletrolar-show",
@@ -2868,11 +2212,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "monthly_or_event",
       "layer": 3,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://eletrolarshow.com.br/",
       "edition_checked": false,
-      "notes": "5 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "mercado-consumo-appliances",
@@ -2881,11 +2225,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "monthly",
       "layer": 3,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://mercadoeconsumo.com.br/",
       "edition_checked": false,
-      "notes": "6 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "mundo-marketing-appliances",
@@ -2894,11 +2238,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "monthly",
       "layer": 3,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.mundodomarketing.com.br/",
       "edition_checked": false,
-      "notes": "6 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "meio-mensagem-appliances",
@@ -2907,11 +2251,11 @@
       "segment_label": "Eletrodomésticos",
       "cadence": "monthly",
       "layer": 3,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.meioemensagem.com.br/",
       "edition_checked": false,
-      "notes": "2 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "abihpec",
@@ -2920,11 +2264,11 @@
       "segment_label": "Bens de Consumo",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://abihpec.org.br/",
       "edition_checked": true,
-      "notes": "5 candidato(s) processado(s)."
+      "notes": "4 candidato(s) processado(s)."
     },
     {
       "source_id": "abipla",
@@ -2933,7 +2277,7 @@
       "segment_label": "Bens de Consumo",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://abipla.org.br/",
       "edition_checked": true,
@@ -2946,7 +2290,7 @@
       "segment_label": "Bens de Consumo",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://www.unilever.com.br/",
       "edition_checked": false,
@@ -2959,7 +2303,7 @@
       "segment_label": "Bens de Consumo",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sem noticia relevante",
       "homepage": "https://www.loreal.com/en/brazil/",
       "edition_checked": false,
@@ -2972,7 +2316,7 @@
       "segment_label": "Bens de Consumo",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sucesso",
       "homepage": "https://br.pg.com/",
       "edition_checked": false,
@@ -2985,7 +2329,7 @@
       "segment_label": "Bens de Consumo",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "falha de acesso",
       "homepage": "https://www.reckitt.com/br/",
       "edition_checked": false,
@@ -2998,7 +2342,7 @@
       "segment_label": "Bens de Consumo",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "falha de acesso",
       "homepage": "https://www.vestacy.com.br/",
       "edition_checked": false,
@@ -3011,11 +2355,11 @@
       "segment_label": "Bens de Consumo",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://beautycarebrazil.org.br/",
       "edition_checked": true,
-      "notes": "Consulta realizada, mas nenhum candidato datado e relevante foi identificado."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "cosmetic-innovation",
@@ -3024,11 +2368,11 @@
       "segment_label": "Bens de Consumo",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "falha de acesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://cosmeticinnovation.com.br/",
       "edition_checked": true,
-      "notes": "HTTP 403 em https://cosmeticinnovation.com.br/"
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "meio-mensagem-consumer",
@@ -3037,11 +2381,11 @@
       "segment_label": "Bens de Consumo",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.meioemensagem.com.br/",
       "edition_checked": false,
-      "notes": "2 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "mundo-marketing-consumer",
@@ -3050,11 +2394,11 @@
       "segment_label": "Bens de Consumo",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://www.mundodomarketing.com.br/",
       "edition_checked": false,
-      "notes": "6 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     },
     {
       "source_id": "mercado-consumo-consumer",
@@ -3063,27 +2407,14 @@
       "segment_label": "Bens de Consumo",
       "cadence": "biweekly",
       "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sucesso",
+      "consulted_at": "2026-09-14",
+      "status": "fora da frequencia operacional",
       "homepage": "https://mercadoeconsumo.com.br/",
       "edition_checked": false,
-      "notes": "6 candidato(s) processado(s)."
+      "notes": "Fonte preservada para execucao futura; janela de analise continua em 30 dias."
     }
   ],
   "sources_without_relevant_news": [
-    {
-      "source_id": "cetea-ital",
-      "source": "CETEA / ITAL",
-      "segment": "packaging",
-      "segment_label": "Embalagens Plásticas",
-      "cadence": "monthly",
-      "layer": 3,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
-      "homepage": "https://www.ital.sp.gov.br/cetea/",
-      "edition_checked": true,
-      "notes": ""
-    },
     {
       "source_id": "abir",
       "source": "ABIR",
@@ -3091,75 +2422,10 @@
       "segment_label": "Bebidas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sem noticia relevante",
       "homepage": "https://abir.org.br/",
       "edition_checked": true,
-      "notes": ""
-    },
-    {
-      "source_id": "coca-cola-femsa",
-      "source": "Coca-Cola FEMSA",
-      "segment": "beverages",
-      "segment_label": "Bebidas",
-      "cadence": "weekly",
-      "layer": 1,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
-      "homepage": "https://coca-colafemsa.com/",
-      "edition_checked": false,
-      "notes": ""
-    },
-    {
-      "source_id": "grupo-petropolis",
-      "source": "Grupo Petropolis",
-      "segment": "beverages",
-      "segment_label": "Bebidas",
-      "cadence": "biweekly",
-      "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
-      "homepage": "https://www.grupopetropolis.com.br/",
-      "edition_checked": false,
-      "notes": ""
-    },
-    {
-      "source_id": "natural-one",
-      "source": "Natural One",
-      "segment": "beverages",
-      "segment_label": "Bebidas",
-      "cadence": "biweekly",
-      "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
-      "homepage": "https://naturalone.com.br/",
-      "edition_checked": false,
-      "notes": ""
-    },
-    {
-      "source_id": "electrolux",
-      "source": "Electrolux",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "cadence": "biweekly",
-      "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
-      "homepage": "https://www.electrolux.com.br/",
-      "edition_checked": false,
-      "notes": ""
-    },
-    {
-      "source_id": "britania-philco",
-      "source": "Britania / Philco",
-      "segment": "appliances",
-      "segment_label": "Eletrodomésticos",
-      "cadence": "biweekly",
-      "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
-      "homepage": "https://www.britania.com.br/",
-      "edition_checked": false,
       "notes": ""
     },
     {
@@ -3169,27 +2435,27 @@
       "segment_label": "Bens de Consumo",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "sem noticia relevante",
       "homepage": "https://www.loreal.com/en/brazil/",
       "edition_checked": false,
       "notes": ""
-    },
-    {
-      "source_id": "beautycare-brazil",
-      "source": "BeautycareBrazil",
-      "segment": "consumer_goods",
-      "segment_label": "Bens de Consumo",
-      "cadence": "biweekly",
-      "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "sem noticia relevante",
-      "homepage": "https://beautycarebrazil.org.br/",
-      "edition_checked": true,
-      "notes": ""
     }
   ],
   "collection_failures": [
+    {
+      "source_id": "coca-cola-femsa",
+      "source": "Coca-Cola FEMSA",
+      "segment": "beverages",
+      "segment_label": "Bebidas",
+      "cadence": "weekly",
+      "layer": 1,
+      "consulted_at": "2026-09-14",
+      "status": "falha de acesso",
+      "homepage": "https://coca-colafemsa.com/",
+      "edition_checked": false,
+      "notes": "HTTP 403 em https://coca-colafemsa.com/"
+    },
     {
       "source_id": "ambev",
       "source": "Ambev",
@@ -3197,24 +2463,11 @@
       "segment_label": "Bebidas",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "falha de acesso",
       "homepage": "https://www.ambev.com.br/",
       "edition_checked": false,
       "notes": "HTTP 403 em https://www.ambev.com.br/"
-    },
-    {
-      "source_id": "zanlorenzi-campo-largo-ohtea",
-      "source": "Zanlorenzi / Campo Largo / Oh!Tea",
-      "segment": "beverages",
-      "segment_label": "Bebidas",
-      "cadence": "biweekly",
-      "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "falha de acesso",
-      "homepage": "https://www.campolargo.com.br/",
-      "edition_checked": false,
-      "notes": "fetch failed"
     },
     {
       "source_id": "reckitt",
@@ -3223,7 +2476,7 @@
       "segment_label": "Bens de Consumo",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "falha de acesso",
       "homepage": "https://www.reckitt.com/br/",
       "edition_checked": false,
@@ -3236,24 +2489,11 @@
       "segment_label": "Bens de Consumo",
       "cadence": "weekly",
       "layer": 1,
-      "consulted_at": "2026-09-07",
+      "consulted_at": "2026-09-14",
       "status": "falha de acesso",
       "homepage": "https://www.vestacy.com.br/",
       "edition_checked": false,
       "notes": "URL marcada para revisao manual antes da coleta automatica."
-    },
-    {
-      "source_id": "cosmetic-innovation",
-      "source": "CosmeticInnovation",
-      "segment": "consumer_goods",
-      "segment_label": "Bens de Consumo",
-      "cadence": "biweekly",
-      "layer": 2,
-      "consulted_at": "2026-09-07",
-      "status": "falha de acesso",
-      "homepage": "https://cosmeticinnovation.com.br/",
-      "edition_checked": true,
-      "notes": "HTTP 403 em https://cosmeticinnovation.com.br/"
     }
   ],
   "edition_statuses": [],
